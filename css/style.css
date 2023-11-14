@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-color:white;
+    font-family: Inter, Jost, Arial, Helvetica, sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header p {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+}
+
+header img{
+    height: 40px;
+}
+
+div.hero{
+    position: relative; 
+    display: flex;
+}
+
+div.hero img.sfondo{
+    max-width: 100%;
+    opacity: 40%;
+}
+
