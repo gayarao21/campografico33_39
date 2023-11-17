@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
     background-color:white;
     font-family: Inter, Jost, Arial, Helvetica, sans-serif;
 }
@@ -7,6 +8,10 @@ body{
 header a {
     text-decoration: none;
     color: #000000;
+}
+
+header a:hover{
+    font-weight: bold;
 }
 
 header {
@@ -18,6 +23,7 @@ header {
 
 header p {
     margin: 0;
+    font-size: 10pt;
     text-transform: uppercase;
 }
 
@@ -26,7 +32,7 @@ header nav ul {
     padding: 0;
     list-style-type: none;
     display: flex;
-    gap: 100px;
+    gap: 150px;
 }
 
 header img{
@@ -41,5 +47,197 @@ div.hero{
 div.hero img.sfondo{
     max-width: 100%;
     opacity: 40%;
+    margin-left: 1rem;
 }
 
+div.testata {
+    position: absolute;
+    padding: 8rem;
+    margin-top: -30rem;
+}
+
+div.testata h1{
+    color: rgb(185, 41, 23);
+}
+div.testata h2{
+    width: 270px;
+    margin-top: -1rem;
+    width: 50;
+}
+
+div.testata p{
+    width: 300px;
+}
+main {
+    margin-top: 5rem;
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 10px;
+}
+
+.card {
+    background: rgb(240,240,240);
+    border-radius: 10px;
+}
+
+.card h3 {
+    padding-top: 1rem;
+}
+
+.campografico img {
+    border-radius: 0;
+    margin: 0rem 2rem 1rem 2rem;
+    object-fit: cover;
+    height: 250px;
+}
+
+.campografico p{
+    margin-right: 2rem;
+}
+
+.campografico{
+    display: flex;
+}
+
+main div h3{
+    margin-left: 2rem;
+}
+
+.campisti{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.campisti img{
+    max-width: 100%;
+    display: flex;
+}
+
+.item{
+    width: 100%;
+    height: 280px;
+    background-color: rgb(240,240,240);
+    border-radius: 10px;
+}
+
+.item h4{
+    margin: 1rem;
+    padding-top: 1rem;
+}
+
+.item img{
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+.associazione img {
+    border-radius: 0;
+    margin: 0rem 2rem 1rem 2rem;
+    object-fit: cover;
+    height: 250px;
+}
+
+.associazione p{
+    margin-right: 2rem;
+}
+
+.associazione{
+    display: flex;
+}
+
+footer{
+    background-color: rgb(240,240,240);
+    margin-top: 10rem;
+    display: flex;
+}
+footer div p{
+    padding: 1rem;
+    font-size: smaller;
+    padding-left: 1rem;
+    margin-top: -0.5rem;
+}
+
+.info{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.facebook{
+    display: flex;
+}
+
+.facebook img{
+    max-width: 40px;
+    max-height: 30px;
+}
+
+.instagram{
+    display: flex;
+}
+
+.instagram img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.web{
+    display: flex;
+}
+
+.web img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.mail{
+    display: flex;
+}
+
+.mail img{
+    max-width: 30px;
+    max-height: 20px;
+}
+
+.facebookassociazione{
+    display: flex;
+}
+
+.facebookassociazione img{
+    max-width: 40px;
+    max-height: 30px;
+}
+
+.instaassociazione{
+    display: flex;
+}
+
+.instaassociazione img{
+    max-width: 30px;
+    max-height: 30px;   
+}
+
+.marchi1{
+    display: flex;
+}
+
+.abact{
+    display: flex;
+}
+
+.abact img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.associazioneculturale img{
+    max-width: 120px;
+    max-height: 40px;
+}
+
+.marchi2{
+    display: flex;
+}
+
+.marchi2 img{
+    max-width: 100px;
+}
