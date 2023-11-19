@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="it">
-<link rel="stylesheet" href="archivio.css">
+<link rel="stylesheet" href="archivio.html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campo Grafico</title>
     <link rel="stylesheet" href="css/archivio.css">
+   
+    <link rel="stylesheet" href="risorse/owl.carousel.min.css">
+    <link rel="stylesheet" href="risorse/owl.theme.default.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="risorse/owl.carousel.js"></script>
+    <script src="anni"></script>
+
+    <script type="text/javascript">
+
+      $( document ).ready(function() {
+
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                 items:1
+            },
+            600:{
+                  items:3
+            },
+            1000:{
+                  items:4
+            },
+            1200:{
+                  items:5
+            }
+        }
+      })
+      });
+    </script>
+
 </head>
 <body>
     <header>
@@ -39,22 +73,43 @@
         </div>
     </main>
         <div class="contenitore">
-            <div class="anni">
-            <h1>1933</h1>
-            <h1>1934</h1>
-            <h1>1935</h1>
-            <h1>1936</h1>
-            <h1>1937</h1>
-            <h1>1938</h1>
-            <h1>1939</h1>
-            </div>
+            <nav class="anni">
+                   <button class="anno" id="I933"><h1>1933</h1></button> 
+                   <button class="anno" id="I934"><h1>1934</h1></button>
+                   <button class="anno" id="I935"><h1>1935</h1></button>
+                   <button class="anno" id="I936"><h1>1936</h1></button>
+                   <button class="anno" id="I937"><h1>1937</h1></button>
+                   <button class="anno" id="I938"><h1>1938</h1></button>
+                   <button class="anno" id="I939"><h1>1939</h1></button>
+            </nav>
         </div>
-        <div class="1933">
-            <img src="immagini/archivio/Gen 1933/gen 1933.png">
-            <img src="immagini/archivio/Gen 1934/gen 1934.png">
-            <img src="immagini/archivio/Gen 1935/gen 1935.png">
-            <img src="immagini/archivio/Gen 1933/gen 1933.png">
-            
+        <div class="contenitoremesi" id="I933">
+            <a href="gen1933.html"><img src="immagini/archivio/1933/Gen 1933/gen 1933.png"></a>
+            <img src="immagini/archivio/1933/Feb 1933/Copertina 02-1933.jpg">
+            <img src="immagini/archivio/1933/Mar 1933/Copertina 03-1933.jpg">
+            <img src="immagini/archivio/1933/Apr 1933/Copertina 04-1933.jpg">
+            <img src="immagini/archivio/1933/Mag 1933/copertina 1933 1.jpg">
+            <img src="immagini/archivio/1933/Giu 1933/copertina giugno 93 1.jpg">
+            <img src="immagini/archivio/1933/Lug 1933/copertina lugliko 93.jpg">
+            <img src="immagini/archivio/1933/Ago 1933/92 1.jpg">
+            <img src="immagini/archivio/1933/Set 1933/copertina 09_33.jpg">
+            <img src="immagini/archivio/1933/Ott 1933/Copertina 10_1933.jpg">
+            <img src="immagini/archivio/1933/Nov 1933/copertina 11_1933.jpg">
+            <img src="immagini/archivio/1933/Dic 1933/Copertina 12_1933.jpg">
+        </div>
+        <div class="contenitoremesi" id="I934">
+            <a href="gen1933.html"><img src="immagini/archivio/1934/Gen 1934/gen 1934.png"></a>
+            <img src="immagini/archivio/1934/Feb 1934/Copertina 02-1934.jpg">
+            <img src="immagini/archivio/1934/Mar 1934/Copertina 03-1934.jpg">
+            <img src="immagini/archivio/1934/Apr 1934/Copertina 04-1934.jpg">
+            <img src="immagini/archivio/1933/Mag 1933/copertina 1933 1.jpg">
+            <img src="immagini/archivio/1933/Giu 1933/copertina giugno 93 1.jpg">
+            <img src="immagini/archivio/1933/Lug 1933/copertina lugliko 93.jpg">
+            <img src="immagini/archivio/1933/Ago 1933/92 1.jpg">
+            <img src="immagini/archivio/1933/Set 1933/copertina 09_33.jpg">
+            <img src="immagini/archivio/1933/Ott 1933/Copertina 10_1933.jpg">
+            <img src="immagini/archivio/1933/Nov 1933/copertina 11_1933.jpg">
+            <img src="immagini/archivio/1933/Dic 1933/Copertina 12_1933.jpg">
         </div>
 
 </body>

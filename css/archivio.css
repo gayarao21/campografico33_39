@@ -4,29 +4,24 @@ body{
     background-color:white;
     font-family: Inter, Jost, Arial, Helvetica, sans-serif;
 }
-
 header a {
     text-decoration: none;
     color: #000000;
 }
-
 header a:hover{
     font-weight: bold;
 }
-
 header {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
-
 header p {
     margin: 0;
     font-size: 10pt;
     text-transform: uppercase;
 }
-
 header nav ul {
     margin:0;
     padding: 0;
@@ -34,11 +29,9 @@ header nav ul {
     display: flex;
     gap: 150px;
 }
-
 header img{
     height: 40px;
 }
-
 div.hero{
     position: relative; 
     display: flex;
@@ -53,7 +46,6 @@ div.testata {
     padding: 8rem;
     margin-left: -60px;
 }
-
 div.testata h1{
     color: rgb(185, 41, 23);
 }
@@ -69,18 +61,48 @@ main {
     margin-left: 300px;
     margin-right: 300px;
     gap: 10px;
+  
 }
-
-div.anni h1{
-    color:#b92917;
+div.contenitore h1 {
+    text-decoration: none;
+    color: #000000;
+}
+div.contenitore nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+nav.anni h1{
     font-family: Jost;
     font-size: 50px;
 }
 .contenitore .anni{
-display: grid;
-gap: 50px;
-grid-template-columns: repeat(10,1fr);
 display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+div.contenitoremesi img{
+    width: 137px;
+    height: 185px;
+    overflow: hidden;
+}
+div.contenitoremesi{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(6, 1fr);
+    margin-left: 5rem;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+div.contenitore button{
+    background: none;
+    border: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }

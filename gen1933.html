@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+<link rel="stylesheet" href="mensili.css">
+<script type="text/javascript">
+
+    $( document ).ready(function() {
+
+      $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+          0:{
+               items:1
+          },
+          600:{
+                items:3
+          },
+          1000:{
+                items:4
+          },
+          1200:{
+                items:5
+          }
+      }
+    })
+    });
+  </script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo Grafico</title>
+    <link rel="stylesheet" href="css/mensili.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <p><a href="campografico.html">CAMPO GRAFICO</a></p>
+                <p><a href="campisti.html">CAMPISTI</a></p>
+                <a href="index.html"><img src="immagini/marchio.png" alt="marchio"></a>
+                <p><a href="archivio.html">ARCHIVIO</a></p>
+                <p><a href="associazione.html">ASSOCIAZIONE</a></p>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="info">
+                <h1>ARCHIVIO <br /> GENNAIO 1933</h1>
+            </div>
+            <img src="immagini/archivio/1933/Gen 1933/gen 1933.png" alt="tipo c">
+            <div class="descrizione">
+                <p>16 pagine + copertina con alette <br/>
+                    Copertina di Carlo Dradi, Battista Pallavera, Attilio Rossi
+                    <br/>Stampato nell’Istituto Grafico Vanzetti e Vanoletti
+                    <br/>Direttore Responsabile: Attilio Rossi
+                    ​​​​​​<br/>Sede: Milano, Corso Vercelli 16
+                </p>
+            </div>
+        </div>
+        <div class="slider-container">
+            <button class="arrow" id="prev">&lt;</button>
+            <div class="slider">
+                <div class="slide" id="slide1"><img src="immagini/archivio/1933/Gen 1933/1-01-1933.jpg"></div>
+                <div class="slide" id="slide2"><img src="immagini/archivio/1933/Gen 1933/2-01-1933.jpg"></div>
+                <div class="slide" id="slide3"><img src="immagini/archivio/1933/Gen 1933/3-01-1933.jpg"></div>
+                <div class="slide" id="slide4"><img src="immagini/archivio/1933/Gen 1933/4-01-1933.jpg"></div>
+                <div class="slide" id="slide5"><img src="immagini/archivio/1933/Gen 1933/5-01-1933.jpg"></div>
+                <div class="slide" id="slide6"><img src="immagini/archivio/1933/Gen 1933/6-01-1933.jpg"></div>
+                <div class="slide" id="slide7"><img src="immagini/archivio/1933/Gen 1933/7-01-1933.jpg"></div>
+                <div class="slide" id="slide8"><img src="immagini/archivio/1933/Gen 1933/8-01-1933.jpg"></div>
+                <div class="slide" id="slide9"><img src="immagini/archivio/1933/Gen 1933/9-01-1933.jpg"></div>
+                <div class="slide" id="slide10"><img src="immagini/archivio/1933/Gen 1933/10-01-1933.jpg"></div>
+                <div class="slide" id="slide11"><img src="immagini/archivio/1933/Gen 1933/11-01-1933.jpg"></div>
+            </div>
+            <button class="arrow" id="next">&gt;</button>
+        </div>
+    
+        <script src="script.js"></script>
+        <script>
+           document.addEventListener('DOMContentLoaded', function () {
+    const slider = document.querySelector('.slider');
+    const slides = document.querySelectorAll('.slide');
+    const prevBtn = document.getElementById('prev');
+    const nextBtn = document.getElementById('next');
+    let counter = 1;
+    const slideWidth = slides[0].clientWidth;
+
+
+    prevBtn.addEventListener('click', () => {
+        if (counter <= 0) return;
+        counter--;
+        updateSlider();
+    });
+
+    nextBtn.addEventListener('click', () => {
+        if (counter >= slides.length - 1) return;
+        counter++;
+        updateSlider();
+    });
+    function updateSlider() {
+        slider.style.transform = `translateX(${-counter * slideWidth}px)`;
+    } 
+    });
+        </script>
+     <div class="contenitoremesi" id="I933">
+        <a href="gen1933.html"><img src="immagini/archivio/1933/Gen 1933/gen 1933.png" id="gen"></a>
+        <img src="immagini/archivio/1933/Feb 1933/Copertina 02-1933.jpg">
+        <img src="immagini/archivio/1933/Mar 1933/Copertina 03-1933.jpg">
+        <img src="immagini/archivio/1933/Apr 1933/Copertina 04-1933.jpg">
+        <img src="immagini/archivio/1933/Mag 1933/copertina 1933 1.jpg">
+        <img src="immagini/archivio/1933/Giu 1933/copertina giugno 93 1.jpg">
+        <img src="immagini/archivio/1933/Lug 1933/copertina lugliko 93.jpg">
+        <img src="immagini/archivio/1933/Ago 1933/92 1.jpg">
+        <img src="immagini/archivio/1933/Set 1933/copertina 09_33.jpg">
+        <img src="immagini/archivio/1933/Ott 1933/Copertina 10_1933.jpg">
+        <img src="immagini/archivio/1933/Nov 1933/copertina 11_1933.jpg">
+        <img src="immagini/archivio/1933/Dic 1933/Copertina 12_1933.jpg">
+    </div>   
+    </main>
+    <footer>
+        <div class="info"></div>
+            <div class="chisiamo">
+                <h4>I NOSTRI CONTATTI</h4>
+                <div class="facebook">
+                    <img src="immagini/icone/facebook.png" alt="facebook">
+                    <a href="https://www.facebook.com/antonio.licciardello.90"><p>Fabio Licciardello</p></a>
+                    <a href="https://www.facebook.com/gaya.rao/"><p>Gaya Rao</p></a>
+                    <a href="https://www.facebook.com/carlotta.scolaro.1"><p>Carla Scolaro</p></a>
+                </div>
+                <div class="instagram">
+                    <img src="immagini/icone/instagram.png" alt="instagram">
+                    <a href="https://www.instagram.com/fabio.licciardello/"><p>@fabio.licciardello</p></a>
+                    <a href="https://www.instagram.com/gaya_rao/"><p>@gaya_rao</p></a>
+                    <a href="https://www.instagram.com/zkcarl/"><p>zkcarl</p></a>
+                </div>
+            </div>
+            <div class="contattiassociazione">
+                <h4>CONTATTI ASSOCIAZIONE</h4>
+                <div class="web">
+                    <img src="immagini/icone/web.png" alt="web">
+                    <a href="www.campografico.org"><p>www.campografico.org</p></a>
+                </div>
+                <div class="mail">
+                    <img src="immagini/icone/mail.png" alt="mail">
+                    <p>info@campografico.org</p>
+                </div>
+                <div class="facebookassociazione">
+                    <img src="immagini/icone/facebook.png" alt="facebook">
+                    <a href="facebook.com/CampoGrafico1933.1939"><p>facebook.com/CampoGrafico1933.1939</p></a>
+                </div>
+                <div class="instaassociazione">
+                    <img src="immagini/icone/instagram.png" alt="insta">
+                    <a href="https://www.instagram.com/campografico1933.1939"><p>https://www.instagram.com/campografico1933.1939</p></a>
+                </div>
+            </div>
+            <div class="marchi1">
+                <div class="abact">
+                    <a href="chisiamo.html"><img src="immagini/icone/marchio accademia.png" alt=""></a>
+                    <a href="chisiamo.html"><p>CHI SIAMO</p></a>
+                </div>
+                <div class="associazioneculturale">
+                    <a href="https://www.campografico.org/association"><img src="immagini/icone/CG-logo-04.png" alt="associazione"></a>
+                </div>
+            </div>
+            <div class="marchi2">
+                <a href="https://identitymarks.it/"><img src="immagini/icone/identitymarks.png" alt="identitymarks"></a>
+                <a href="https://aiap.it/"><img src="immagini/icone/aiap_logo-5.png" alt="aiap"></a>
+            </div>
+        </div>
+    </footer>
+</body>
