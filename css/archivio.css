@@ -70,6 +70,17 @@ main {
     margin-right: 300px;
     gap: 10px;
 }
-div.testo {
- width: 700px;      
+
+div.anni h1{
+    color:#b92917;
+    font-family: Jost;
+    font-size: 50px;
+}
+.contenitore .anni{
+display: grid;
+gap: 50px;
+grid-template-columns: repeat(10,1fr);
+display: flex;
+    justify-content: center;
+    align-items: center;
 }
