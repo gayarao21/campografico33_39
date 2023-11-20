@@ -59,58 +59,21 @@ div.descrizione p{
     margin-left: -1rem;
     margin-top: 10rem;
 }
-.slider-container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    margin: auto;
+div.item{
+margin-top: 140px;
+}
+div.item h4{
     display: flex;
-    align-content: center;
-    align-items: center;
-    margin-top: 5rem;
-    margin-bottom: 10rem;
-}
-.slider {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    transition: transform 0.5s ease-in-out;
-
-}
-.slide {
-    min-width: 100%;
-    box-sizing: border-box;
-    width: 924px;
-    height: 664px;
-}
-.arrow {
-    position: relative;
-    top: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
-    background-color:none;
-    color: #B92917;
-    border: none;
-    cursor: pointer;   
-}
-.arrow:hover {
-    background-color: #ebcece;
-}
-#prev {
-    margin-left: 8%;
+    justify-content: center;
 }
 
-#next {
-    margin-right: 8%;
-}
-#gen{
-    filter: saturate(10%);
-}
+
 div.contenitoremesi img{
     width: 137px;
     height: 185px;
     overflow: hidden;
+    margin-bottom: -8rem;
+    margin-top: 8rem;
 }
 div.contenitoremesi{
     display: grid;
@@ -122,6 +85,21 @@ div.contenitoremesi{
     justify-content: center;
     align-items: center;
 }
+h5{
+    color: white;
+    margin-left: 10px;
+    font-size: 22px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top:-16rem;
+    opacity: 0%;
+}
+div.contenitoremesi :hover{
+    opacity: 100%;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
 footer{
     background-color: rgb(240,240,240);
     margin-top: 10rem;
