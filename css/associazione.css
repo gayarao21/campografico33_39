@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family: Inter, Jost, Arial, Helvetica, sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header a:hover{
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header p {
+    margin: 0;
+    font-size: 10pt;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 150px;
+}
+
+header img{
+    height: 40px;
+}
+footer{
+    background-color: rgb(240,240,240);
+    margin-top: 10rem;
+    display: flex;
+}
+footer div p{
+    padding: 1rem;
+    font-size: smaller;
+    padding-left: 1rem;
+    margin-top: -0.5rem;
+}
+
+.info{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.facebook{
+    display: flex;
+}
+
+.facebook img{
+    max-width: 40px;
+    max-height: 30px;
+}
+
+.instagram{
+    display: flex;
+}
+
+.instagram img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.web{
+    display: flex;
+}
+
+.web img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.mail{
+    display: flex;
+}
+
+.mail img{
+    max-width: 30px;
+    max-height: 20px;
+}
+
+.facebookassociazione{
+    display: flex;
+}
+
+.facebookassociazione img{
+    max-width: 40px;
+    max-height: 30px;
+}
+
+.instaassociazione{
+    display: flex;
+}
+
+.instaassociazione img{
+    max-width: 30px;
+    max-height: 30px;   
+}
+
+.marchi1{
+    display: flex;
+}
+
+.abact{
+    display: flex;
+}
+
+.abact img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.associazioneculturale img{
+    max-width: 120px;
+    max-height: 40px;
+}
+
+.marchi2{
+    display: flex;
+}
+
+.marchi2 img{
+    max-width: 100px;
+}
+.hero{
+    display: flex;
+}
+
+.info{
+    margin: 3rem;
+    margin-top: 10rem;
+    padding-left: 5rem;
+}
+
+.info h1{
+    color: rgb(185, 41, 23);
+}
+
+.info h2{
+    max-width: 300px;
+    color: rgb(208, 207, 207);
+}
+
+.info p{
+    max-width: 250px;
+}
+.hero img{
+    max-width: 400px;
+    max-height: 400px;
+    padding-top: 3rem;
+    padding-left: 120px;
+    align-content: center;
+}
+
+.descrizione p{
+    max-width: 250px;
+    margin-top: 30rem;
+    padding-left: 10rem;
+}
+.testo {
+    max-width: 700px;  
+    margin: 0 25rem 0 25rem; 
+}
