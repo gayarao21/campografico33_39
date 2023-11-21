@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family: Inter, Jost, Arial, Helvetica, sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header a:hover{
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header p {
+    margin: 0;
+    font-size: 10pt;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 150px;
+}
+
+header img{
+    height: 40px;
+}
+
+
+.hero img{
+    display: flex;
+    max-width: 70%;
+    margin-left: 13rem;
+}
+
+.info{
+    margin-left: 3rem;
+    margin-top: 10rem;
+    padding-left: 5rem;
+    display: flex;
+}
+
+.info h1{
+    color: rgb(185, 41, 23);
+}
+
+.info p{
+    padding-left: 50rem;
+    max-width: 250px;
+}
+
+.descrizione p{
+    max-width: 700px;
+    margin: 8rem 25rem 0 25rem; 
+}
+
+.descrizione h3{
+    max-width: 700px;
+    margin: 5rem 25rem 0 25rem; 
+}
+
+.fondatori{
+    max-width: 700px;
+    margin: 2rem 25rem 0 25rem;
+}
+
+.fontatori-conteiner{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+    gap: 2rem;
+}
+
+.rossi{
+    max-width: 320px;
+    max-height: 320px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.rossi p{
+    font-size:large;
+    margin-top: 0.5rem;
+}
+
+.rossi .specializzazione{
+    font-size: small;
+    color: rgb(185, 41, 23);
+    margin: -1rem 0 0 0;
+}
+
+.rossi img {
+    max-width: 334px;
+    margin-left: -0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+
+}
+
+.dradi{
+    max-width: 320px;
+    max-height: 320px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.dradi p{
+    font-size:large;
+    margin-top: 0.5rem;
+}
+
+.dradi .specializzazione{
+    font-size: small;
+    color: rgb(185, 41, 23);
+    margin: -1rem 0 0 0;
+}
+
+.dradi img {
+    max-width: 325px;
+    margin-top: 0.5rem;
+}
+
+.rossi-preview{
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.info-rossi{
+    display: flex;
+}
+
+.dradi-preview{
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.info-dradi{
+    display: flex;
+}
+
+.preview{
+    position: fixed;
+    top: 0;
+    left:0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondatori-preview{
+    display: none;
+    padding: 2rem;
+    position: relative;
+    margin: 2rem;
+    max-width: 80%;
+}
+
+.preview .fondatori-preview.active{
+    display: inline-block;
+}
+
+.preview .fondatori-preview.active img{
+    margin: 3rem 3rem 0 0;
+    margin-bottom: -0.25rem;
+    border-radius: 10px;
+}
+
+.preview .fondatori-preview.active .fa-times{
+    clip-path: polygon(20% 0%, 0% 20%,30% 50%, 0% 80%,20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    color: rgb(187, 187, 187);
+}
+
+.preview .fondatori-preview.active .fa-times{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+}
