@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family: Inter, Jost, Arial, Helvetica, sans-serif;
+}
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+header a:hover{
+    font-weight: bold;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+header p {
+    margin: 0;
+    font-size: 10pt;
+    text-transform: uppercase;
+}
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 150px;
+}
+header img{
+    height: 40px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.info{
+    margin: 3rem;
+    margin-top: 7rem;
+}
+.info h1{
+    color: rgb(185, 41, 23);
+    margin-right: 3rem;
+}
+.hero img{
+    width: 340px;
+    height: 459px;
+    padding-top: 3rem;
+}
+div.descrizione {
+    max-width: 3000px;
+    padding-left: 6rem;
+    margin-top: 10rem;
+}
+div.descrizione p{
+    margin-left: -1rem;
+    margin-top: 10rem;
+}
+div.item{
+margin-top: 140px;
+}
+div.item h4{
+    display: flex;
+    justify-content: center;
+}
+
+
+div.contenitoremesi img{
+    width: 137px;
+    height: 185px;
+    overflow: hidden;
+    margin-bottom: -8rem;
+    margin-top: 8rem;
+}
+div.contenitoremesi{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(6, 1fr);
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    color: white;
+    margin-left: 10px;
+    font-size: 22px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-top:-16rem;
+    opacity: 0%;
+}
+div.contenitoremesi :hover{
+    opacity: 100%;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(240,240,240);
+    margin-top: 10rem;
+    display: flex;
+}
+footer div p{
+    padding: 1rem;
+    font-size: smaller;
+    padding-left: 1rem;
+    margin-top: -0.5rem;
+}
+
+.info{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.facebook{
+    display: flex;
+}
+
+.facebook img{
+    max-width: 40px;
+    max-height: 30px;
+}
+
+.instagram{
+    display: flex;
+}
+
+.instagram img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.web{
+    display: flex;
+}
+
+.web img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.mail{
+    display: flex;
+}
+
+.mail img{
+    max-width: 30px;
+    max-height: 20px;
+}
+
+.facebookassociazione{
+    display: flex;
+}
+
+.facebookassociazione img{
+    max-width: 40px;
+    max-height: 30px;
+}
+
+.instaassociazione{
+    display: flex;
+}
+
+.instaassociazione img{
+    max-width: 30px;
+    max-height: 30px;   
+}
+
+.marchi1{
+    display: flex;
+}
+
+.abact{
+    display: flex;
+    margin-top: 6rem;
+    gap: 20px;
+}
+
+.abact img{
+    max-width: 30px;
+    max-height: 30px;
+}
+.associazioneculturale {
+    display: flex;
+    margin-top: 6rem;
+    gap: 20px;
+}
+.associazioneculturale img{
+    max-width: 120px;
+    max-height: 40px;
+}
+.marchi2{
+    display: flex;
+    margin-top: 6rem;
+    gap: 20px;
+}
+.marchi2 img{
+    max-width: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}

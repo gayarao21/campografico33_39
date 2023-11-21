@@ -182,20 +182,15 @@ header img{
     display: inline-block;
 }
 
+#rectangle {
+    width: 200px;
+    height: 100px;
+    background: red;
+}
+
 .preview .fondatori-preview.active img{
     margin: 3rem 3rem 0 0;
     margin-bottom: -0.25rem;
     border-radius: 10px;
 }
 
-.preview .fondatori-preview.active .fa-times{
-    clip-path: polygon(20% 0%, 0% 20%,30% 50%, 0% 80%,20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
-    color: rgb(187, 187, 187);
-}
-
-.preview .fondatori-preview.active .fa-times{
-    position: absolute;
-    top: 1rem;
-    right: 1.5rem;
-    cursor: pointer;
-}
