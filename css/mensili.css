@@ -61,13 +61,12 @@ div.descrizione p{
 }
 div.item{
 margin-top: 140px;
+margin-bottom: -4rem;
 }
 div.item h4{
     display: flex;
     justify-content: center;
 }
-
-
 div.contenitoremesi img{
     width: 137px;
     height: 185px;
