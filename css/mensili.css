@@ -36,6 +36,7 @@ header img{
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+    flex-wrap: wrap;
 }
 .info{
     margin: 3rem;
@@ -61,11 +62,13 @@ div.descrizione p{
 }
 div.item{
 margin-top: 140px;
-margin-bottom: -4rem;
 }
 div.item h4{
     display: flex;
     justify-content: center;
+}
+div.owl-carousel.owl-theme{
+    height: 300px;
 }
 div.contenitoremesi img{
     width: 137px;
