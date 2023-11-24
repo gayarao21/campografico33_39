@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campisti</title>
     <link rel="stylesheet" href="css/campisti.css">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>  
-
-    <script src="js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -48,7 +48,7 @@
             L'intenzione dei fondatori era applicare alla grafica i temi moderni già recepiti 
             in Italia nell'arte figurativa e nell'architettura. 
         </p>
-        <div class="fontatori-conteiner">
+        <div class="fondatori-conteiner">
             <div class="rossi">
                 <p>ATTILIO ROSSI</p>
                 <p class="specializzazione">Pittore e grafico</p>
@@ -60,10 +60,12 @@
                 <img src="immagini/campisti/dradi.png" alt="dradi">
             </div>
         </div>
-        <div class="preview">
-            <div class="fondatori-preview active">
-                <i class="fas fa times"></i>
-                <div class="rossi-preview">
+        <div class="modal">
+            <div id="myModal" class="modal1">
+                <div class="closeModal">
+                    <a href="prova.html" id="closeModal" class="close">&times;</a>
+                </div>
+                <div class="modale_rossi">
                     <div class="img">
                         <img src="immagini/campisti/attilio rossi.png" alt="rossi">
                     </div>
@@ -75,7 +77,7 @@
                             <p>Luogo di nascita:<br>Data di nascita:<br>Luogo di morte:<br>Data di morte:</p>
                             <p>Albairate (Milano) <br>25 marzo 1909 <br> Milano <br>6 aprile 1994</p>
                         </div>
-                        <p class="testo">Nel 1925 iniziò a lavorare come tipografo e impaginatore all’Istituto
+                            <p class="testo">Nel 1925 iniziò a lavorare come tipografo e impaginatore all’Istituto
                             grafico Bertieri e Vanzetti di Milano. Nella prima metà degli anni Trenta i suoi 
                             riferimenti culturali erano il Bauhaus di Walter Gropius, le teorie di Le Corbusier,
                             Piet Mondrian e Pablo Picasso. Nel 1933 fu tra i fondatori della rivista Campo grafico, 
@@ -84,29 +86,4 @@
                     </div>
                 </div>
             </div>
-            <div class="fondatori-preview">
-                
-                <div class="dradi-preview">
-                    <div class="img">
-                        <img src="immagini/campisti/dradi.png" alt="dradi">
-                    </div>
-                    <div class="specifiche">
-                        <p>CARLO DRADI</p>
-                        <p class="specializzazione">Grafico e operatore culturale</p>
-                        <p class="date">DATE DI ESISTENZA</p>
-                        <div class="info-dradi">
-                            <p>Luogo di nascita:<br>Data di nascita:<br>Luogo di morte:<br>Data di morte:</p>
-                            <p>Milano <br>1908 <br> Milano <br>1982</p>
-                        </div>
-                        <p class="testo">Carlo Dradi, grafico e operatore culturale, è stato particolarmente 
-                            attivo dai primi anni ’30 a tutti i ’60. Tra i fondatori di «Campo Grafico», la 
-                            nota rivista di “estetica e tecnica grafica“, e del Centro di Studi Grafici (CSG) 
-                            ma anche direttore di «Linea Grafica».È stato tra i fondatori di Aiap - Associazione 
-                            italiana design della comunicazione visiva.
-                        </p>
-                    </div>
-                </div>
-            </div>  
         </div>
-    </main>
-</body>

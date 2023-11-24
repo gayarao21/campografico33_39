@@ -77,7 +77,7 @@ header img{
     margin: 2rem 25rem 0 25rem;
 }
 
-.fontatori-conteiner{
+.fondatori-conteiner{
     max-width: 700px;
     margin: 0 auto;
     padding: 3rem 2rem;
@@ -139,58 +139,51 @@ header img{
     margin-top: 0.5rem;
 }
 
-.rossi-preview{
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal:target {
+    display: block;
+}
+  
+.modal1{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.modale_rossi{
+    display: flex;
+    max-width: 80%;
     background-color: rgb(240, 240, 240);
     border-radius: 10px;
+}
+
+.close {
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+.close:hover {
+    color: #ccc;
 }
 
 .info-rossi{
     display: flex;
 }
-
-.dradi-preview{
-    display: flex;
-    background-color: rgb(240, 240, 240);
-    border-radius: 10px;
-}
-
-.info-dradi{
-    display: flex;
-}
-
-.preview{
-    position: fixed;
-    top: 0;
-    left:0;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.fondatori-preview{
-    display: none;
-    padding: 2rem;
-    position: relative;
-    margin: 2rem;
-    max-width: 80%;
-}
-
-.preview .fondatori-preview.active{
-    display: inline-block;
-}
-
-#rectangle {
-    width: 200px;
-    height: 100px;
-    background: red;
-}
-
-.preview .fondatori-preview.active img{
-    margin: 3rem 3rem 0 0;
-    margin-bottom: -0.25rem;
-    border-radius: 10px;
-}
-
