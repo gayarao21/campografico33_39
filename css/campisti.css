@@ -62,28 +62,47 @@ header img{
     max-width: 250px;
 }
 
-.descrizione p{
-    max-width: 700px;
-    margin: 8rem 25rem 0 25rem; 
+.box{
+    width: 100%;
+    height: auto;
 }
 
-.descrizione h3{
-    max-width: 700px;
-    margin: 5rem 25rem 0 25rem; 
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.fondatori{
+.descrizioni {
     max-width: 700px;
-    margin: 2rem 25rem 0 25rem;
+    margin: 5rem 0 0 0;
 }
 
-.fondatori-conteiner{
+.subtitle{
+    margin-top: 5rem;
+}
+
+.subtitle2{
+    margin: 0;
+}
+
+.fondatori-conteiner ul{
     max-width: 700px;
     margin: 0 auto;
-    padding: 3rem 2rem;
+    padding: 1rem 2rem ;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
     gap: 2rem;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a .specializzazione{
+    color: rgb(185, 41, 23);
 }
 
 .rossi{
@@ -102,7 +121,6 @@ header img{
 
 .rossi .specializzazione{
     font-size: small;
-    color: rgb(185, 41, 23);
     margin: -1rem 0 0 0;
 }
 
@@ -150,12 +168,8 @@ header img{
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.8);
 }
-
-.modal:target {
-    display: block;
-}
   
-.modal1{
+.modal-content{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,6 +181,77 @@ header img{
     max-width: 80%;
     background-color: rgb(240, 240, 240);
     border-radius: 10px;
+}
+
+.modal-contentd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.dradiModal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modale_rossi{
+    display: flex;
+    max-width: 80%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.modale_dradi{
+    display: flex;
+    max-width: 80%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+} 
+
+.img{
+    display: flex;
+}
+
+.img-d{
+    display: flex;
+    height: 500px;
+}
+
+.specifiche{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.specifiche .fondatore{
+    font-size: large;
+    margin-top: 0.5rem;
+}
+
+.specifiche .specializzazione{
+    font-size: small;
+    margin: -1rem 0 0 0;
+    color: rgb(185, 41, 23);
+}
+
+.specifiche .date{
+    margin-top: 2rem;
+    color: #b2afaf;
+}
+
+.info-fond{
+    display: flex;
+    gap: 3rem;
+    margin-top: -1.5rem;
+    color: #b2afaf;
 }
 
 .close {
@@ -181,9 +266,151 @@ header img{
 }
   
 .close:hover {
-    color: #ccc;
+    color: #b2afaf;
 }
 
-.info-rossi{
+.campisti-1{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campisti-1 img{
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(181, 181, 181);
+    font-size: small;
+}
+
+.firme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firme img{
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.print{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.print img{
+    width: 40%;
+    margin-top: 1.5rem;
+    padding-right: 2rem;
+}
+
+.print p{
+    margin-top: -4rem;
+}
+
+footer{
+    background-color: rgb(240,240,240);
+    margin-top: 10rem;
+    display: flex;
+}
+footer div p{
+    padding: 1rem;
+    font-size: smaller;
+    padding-left: 1rem;
+    margin-top: -0.5rem;
+}
+
+.info{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.facebook{
+    display: flex;
+}
+
+.facebook img{
+    max-width: 40px;
+    max-height: 30px;
+}
+
+.instagram{
+    display: flex;
+}
+
+.instagram img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.web{
+    display: flex;
+}
+
+.web img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.mail{
+    display: flex;
+}
+
+.mail img{
+    max-width: 30px;
+    max-height: 20px;
+}
+
+.facebookassociazione{
+    display: flex;
+}
+
+.facebookassociazione img{
+    max-width: 40px;
+    max-height: 30px;
+}
+
+.instaassociazione{
+    display: flex;
+}
+
+.instaassociazione img{
+    max-width: 30px;
+    max-height: 30px;   
+}
+
+.marchi1{
+    display: flex;
+}
+
+.abact{
+    display: flex;
+}
+
+.abact img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.associazioneculturale img{
+    max-width: 120px;
+    max-height: 40px;
+}
+
+.marchi2{
+    display: flex;
+}
+
+.marchi2 img{
+    max-width: 100px;
 }

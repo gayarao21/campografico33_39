@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="css/campisti.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -33,51 +32,59 @@
             </div>
             <img src="immagini/campisti/campisti.png" alt="campisti">
         </div>
-        <div class="descrizione">
-            <p>Campo Grafico si distaccò dagli stilemi in uso in Italia e si avvicinò 
-                alle correnti dell'avanguardia europea, su tutte il Bauhaus tedesco. 
-                In un periodo in cui l'arte grafica stava estenuandosi in una elegante 
-                staticità neoclassica, Campo Grafico avanzò ardite soluzioni che 
-                scavalcavano le prassi ormai ingessate della vecchia tradizione artigianale.
-            </p>
-            <h3>I FONDATORI FURONO  IL PITTORE ATTILIO ROSSI E IL GRAFICO CARLO DRADI, ATTIVI 
-                ENTRAMBI NEL CARTELLONISMO PUBBLICITARIO. 
-            </h3>
+        <div class="box flex">
+            <div class="descrizioni">
+                <p >
+                    Campo Grafico si distaccò dagli stilemi in uso in Italia e si avvicinò 
+                    alle correnti dell'avanguardia europea, su tutte il Bauhaus tedesco. 
+                    In un periodo in cui l'arte grafica stava estenuandosi in una elegante 
+                    staticità neoclassica, Campo Grafico avanzò ardite soluzioni che 
+                    scavalcavano le prassi ormai ingessate della vecchia tradizione artigianale.
+                </p>
+                <h3 class="subtitle">I FONDATORI </h3>
+                <p>
+                    I fondatori furono il pittore Attilio Rossi e il grafico Carlo Dradi, entrambi 
+                    attivi nel cartellonismo pubblicitario, si dedicarono ad applicare alla grafica 
+                    i temi moderni già recepiti in Italia nell'arte figurativa e nell'architettura. 
+                </p>
+            </div>
         </div>
-        <p class="fondatori">
-            L'intenzione dei fondatori era applicare alla grafica i temi moderni già recepiti 
-            in Italia nell'arte figurativa e nell'architettura. 
-        </p>
         <div class="fondatori-conteiner">
-            <div class="rossi">
-                <p>ATTILIO ROSSI</p>
-                <p class="specializzazione">Pittore e grafico</p>
-                <img src="immagini/campisti/attilio rossi.png" alt="rossi">
-            </div>
-            <div class="dradi">
-                <p>CARLO DRADI</p>
-                <p class="specializzazione">Grafico e operatore culturale</p>
-                <img src="immagini/campisti/dradi.png" alt="dradi">
-            </div>
+            <ul>
+                <li><a href="#">
+                        <div class="rossi">
+                            <p>ATTILIO ROSSI</p>
+                            <p class="specializzazione">Pittore e grafico</p>
+                            <img src="immagini/campisti/attilio rossi.png" alt="rossi">
+                        </div>
+                    </a>
+                </li>
+                <li><a href="#">
+                        <div class="dradi">
+                            <p>CARLO DRADI</p>
+                            <p class="specializzazione">Grafico e operatore culturale</p>
+                            <img src="immagini/campisti/dradi.png" alt="dradi">
+                        </div>
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div class="modal">
-            <div id="myModal" class="modal1">
-                <div class="closeModal">
-                    <a href="prova.html" id="closeModal" class="close">&times;</a>
-                </div>
-                <div class="modale_rossi">
-                    <div class="img">
-                        <img src="immagini/campisti/attilio rossi.png" alt="rossi">
-                    </div>
+        
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <div id="modalImage" src="" class="modale_rossi">
+                <div class="img">
+                    <img src="immagini/campisti/attilio rossi.png" alt="rossi">
                     <div class="specifiche">
-                        <p>ATTILIO ROSSI</p>
+                        <p class="fondatore">ATTILIO ROSSI</p>
                         <p class="specializzazione">Pittore e grafico</p>
                         <p class="date">DATE DI ESISTENZA</p>
-                        <div class="info-rossi">
+                        <div class="info-fond">
                             <p>Luogo di nascita:<br>Data di nascita:<br>Luogo di morte:<br>Data di morte:</p>
                             <p>Albairate (Milano) <br>25 marzo 1909 <br> Milano <br>6 aprile 1994</p>
                         </div>
-                            <p class="testo">Nel 1925 iniziò a lavorare come tipografo e impaginatore all’Istituto
+                        <p class="testo">Nel 1925 iniziò a lavorare come tipografo e impaginatore all’Istituto
                             grafico Bertieri e Vanzetti di Milano. Nella prima metà degli anni Trenta i suoi 
                             riferimenti culturali erano il Bauhaus di Walter Gropius, le teorie di Le Corbusier,
                             Piet Mondrian e Pablo Picasso. Nel 1933 fu tra i fondatori della rivista Campo grafico, 
@@ -87,3 +94,132 @@
                 </div>
             </div>
         </div>
+    </div>
+    <script src="js/modale.js"></script>
+    
+    <div id="modald" class="dradiModal">
+        <div class="modal-contentd">
+            <span id="closeModal" class="close">&times;</span>
+            <div id="modalImaged" class="modale_dradi">
+                <div class="img-d">
+                    <img src="immagini/campisti/dradi.png" alt="dradi">
+                    <div class="specifiche">
+                        <p class="fondatore">CARLO DRADI</p>
+                        <p class="specializzazione">Grafico e operatore culturale</p>
+                        <p class="date">DATE DI ESISTENZA</p>
+                        <div class="info-fond">
+                            <p>Luogo di nascita:<br>Data di nascita:<br>Luogo di morte:<br>Data di morte:</p>
+                            <p>Milano <br> 1908 <br> Milano <br> 1982</p>
+                        </div>
+                        <p class="testo">Carlo Dradi, grafico e operatore culturale, è stato particolarmente attivo 
+                            dai primi anni ’30 a tutti i ’60. Tra i fondatori di «Campo Grafico», la nota rivista di 
+                            “estetica e tecnica grafica“, e del Centro di Studi Grafici (CSG) ma anche direttore di 
+                            «Linea Grafica».È stato tra i fondatori di Aiap - Associazione italiana design della 
+                            comunicazione visiva.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/dradi.js"></script>
+    
+    <div class="box flex">
+        <div class="descrizioni">
+            <h3 class="subtitle2">LA PRIMA REDAZIONE DI “CAMPO GRAFICO”</h3>
+            <p>
+                La prima redazione di "Campo Grafico", nello studio Dradi/Rossi, in corso Vercelli a Milano nel 1933. 
+                Nello specifico: facevano parte del primo gruppo di collaboratori: i grafici Attilio Rossi e Carlo 
+                Dradi; il gallerista Luigi Ghiringhelli; il pubblicitario Giulio Cesare Ricciardi; i tipografi Luigi 
+                e Romano Minardi; l’amministratore Carlo Baldini; i tecnici operai Eligio Bonelli, Giovanni Brenna, 
+                Pasquale Casonato, Natale Felici, Luigi Ferrari, Luigi Laboni, Carlo Lanzani, Giovanni Mazzucotelli, 
+                Ezio Michelotti, Achille Moreo, Luigi Negroni, Battista Pallavera, Giovanni Peviani, Giovanni Pirondini, 
+                Giuseppe Scotti, Loris Ticinelli, Umberto Zani. 
+            </p>
+        </div>
+    </div>
+    <div class="campisti-1">
+        <img src="immagini/campisti/1campisti.png" alt="campisti">
+    </div>
+   <p class="foto">Da sinistra: Bruno Pallavera, Attilio Rossi, Pasinetti, Giuseppe Muggiani, Augusto Arguti e Carlo Dradi (seduto).</p>
+   <div class="box flex">
+        <div class="descrizioni">
+            <h3 class="subtitle2">VENTITRÉ SONO LE FIRME DEGLI AUTORI DELLE 66 COPERTINE </h3>
+            <p>
+                Studio Dradi Rossi (13); Luigi Veronesi (8); Enrico Bona (3); DRP Studio Dradi Rossi e Pallavera (2); Battista Pallavera, foto ritoccatore alla Rizzoli (2). 
+                Firmano una copia a testa:Pirovano - Confalonieri; Bergossi; Enrico Kaneclin; Panni; Atanasio Soldati; Giovanni Broggi; Friedrich Vordemberge Gildewart; 
+                Randolfo Asti; Luigi Minardi; Luigi Oriani e Mario Perondi ; Alberto Gennari; Musso; Piero Gandolfi; Horacio Coppola ; Giovanni Frecchiani; Egidio Bozzolo; 
+                Bogino; Remo Muratore; Sergio Franciscone.
+            </p>
+        </div>
+    </div>
+    <div class="firme">
+        <img src="immagini/campisti/firme.png" alt="firme">
+    </div>
+    <div class="box flex">
+        <div class="descrizioni">
+            <h3 class="subtitle2">ELENCO DEI VARI STAMPATORI DI “CAMPO GRAFICO”, IN ORDINE DI TEMPO </h3>
+            <div class="print">
+                <img src="immagini/campisti/tipi-campografico.png" alt="">
+                <p>Vanzetti & Vanoletti, Officina Grafica Rinaldo Muggiani, Tipografia “La Grafica Sociale”, Tipografia Enrico Ghezzi, Tipografia Ettore Padoan, S.A., 
+                    Tipografia Aracne, Tipografia Federico Sacchetti, Tipografia Grafa, “La Tipostampa Moderna” che stamperà gli ultimi tre numeri.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="info"></div>
+            <div class="chisiamo">
+                <h4>I NOSTRI CONTATTI</h4>
+                <div class="facebook">
+                    <img src="immagini/icone/facebook.png" alt="facebook">
+                    <a href="https://www.facebook.com/antonio.licciardello.90"><p>Fabio Licciardello</p></a>
+                    <a href="https://www.facebook.com/gaya.rao/"><p>Gaya Rao</p></a>
+                    <a href="https://www.facebook.com/carlotta.scolaro.1"><p>Carla Scolaro</p></a>
+                </div>
+                <div class="instagram">
+                    <img src="immagini/icone/instagram.png" alt="instagram">
+                    <a href="https://www.instagram.com/fabio.licciardello/"><p>@fabio.licciardello</p></a>
+                    <a href="https://www.instagram.com/gaya_rao/"><p>@gaya_rao</p></a>
+                    <a href="https://www.instagram.com/zkcarl/"><p>@zkcarl</p></a>
+                </div>
+            </div>
+            <div class="contattiassociazione">
+                <h4>CONTATTI ASSOCIAZIONE</h4>
+                <div class="web">
+                    <img src="immagini/icone/web.png" alt="web">
+                    <a href="www.campografico.org"><p>www.campografico.org</p></a>
+                </div>
+                <div class="mail">
+                    <img src="immagini/icone/mail.png" alt="mail">
+                    <p>info@campografico.org</p>
+                </div>
+                <div class="facebookassociazione">
+                    <img src="immagini/icone/facebook.png" alt="facebook">
+                    <a href="facebook.com/CampoGrafico1933.1939"><p>facebook.com/CampoGrafico1933.1939</p></a>
+                </div>
+                <div class="instaassociazione">
+                    <img src="immagini/icone/instagram.png" alt="insta">
+                    <a href="https://www.instagram.com/campografico1933.1939"><p>https://www.instagram.com/campografico1933.1939</p></a>
+                </div>
+            </div>
+            <div class="marchi1">
+                <div class="abact">
+                    <a href="chisiamo.html"><img src="immagini/icone/marchio accademia.png" alt=""></a>
+                    <a href="chisiamo.html"><p>CHI SIAMO</p></a>
+                </div>
+                <div class="associazioneculturale">
+                    <a href="https://www.campografico.org/association"><img src="immagini/icone/CG-logo-04.png" alt="associazione"></a>
+                </div>
+            </div>
+            <div class="marchi2">
+                <a href="https://identitymarks.it/"><img src="immagini/icone/identitymarks.png" alt="identitymarks"></a>
+                <a href="https://aiap.it/"><img src="immagini/icone/aiap_logo-5.png" alt="aiap"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+
+        
