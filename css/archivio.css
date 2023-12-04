@@ -98,6 +98,8 @@ button.active {
     flex-wrap: wrap;
     margin-left: 2rem;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
 }
 .card{
 
