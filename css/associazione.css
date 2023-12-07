@@ -38,114 +38,26 @@ header nav ul {
 header img{
     height: 40px;
 }
-footer{
-    background-color: rgb(240,240,240);
-    margin-top: 10rem;
-    display: flex;
-}
-footer div p{
-    padding: 1rem;
-    font-size: smaller;
-    padding-left: 1rem;
-    margin-top: -0.5rem;
-}
 
-.info{
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-
-.facebook{
-    display: flex;
-}
-
-.facebook img{
-    max-width: 40px;
-    max-height: 30px;
-}
-
-.instagram{
-    display: flex;
-}
-
-.instagram img{
-    max-width: 30px;
-    max-height: 30px;
-}
-
-.web{
-    display: flex;
-}
-
-.web img{
-    max-width: 30px;
-    max-height: 30px;
-}
-
-.mail{
-    display: flex;
-}
-
-.mail img{
-    max-width: 30px;
-    max-height: 20px;
-}
-
-.facebookassociazione{
-    display: flex;
-}
-
-.facebookassociazione img{
-    max-width: 40px;
-    max-height: 30px;
-}
-
-.instaassociazione{
-    display: flex;
-}
-
-.instaassociazione img{
-    max-width: 30px;
-    max-height: 30px;   
-}
-
-.marchi1{
-    display: flex;
-}
-
-.abact{
-    display: flex;
-}
-
-.abact img{
-    max-width: 30px;
-    max-height: 30px;
-}
-
-.associazioneculturale img{
-    max-width: 120px;
-    max-height: 40px;
-}
-
-.marchi2{
-    display: flex;
-}
-
-.marchi2 img{
-    max-width: 100px;
-}
 .hero{
+    width: 100%;
+    height: auto;
+}
+
+.flex{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info{
     margin: 3rem;
-    margin-top: 10rem;
-    padding-left: 5rem;
+    margin-top: 5rem;
 }
 
 .info h1{
     color: rgb(185, 41, 23);
+    margin-top: -5rem;
 }
 
 .info h2{
@@ -156,20 +68,127 @@ footer div p{
 .info p{
     max-width: 250px;
 }
+
 .hero img{
-    max-width: 400px;
-    max-height: 400px;
-    padding-top: 3rem;
-    padding-left: 120px;
-    align-content: center;
+    width: 20%;
+    height: 20%;
+    margin-top: 15rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+
 }
 
 .descrizione p{
     max-width: 250px;
-    margin-top: 30rem;
-    padding-left: 10rem;
+    margin-top: 6rem;
 }
+
 .testo {
     max-width: 700px;  
-    margin: 0 25rem 0 25rem; 
+    margin: 11rem 25rem 0 25rem; 
+}
+
+.testo h3{
+    margin-top: 5rem;
+}
+
+.fondatori-conteiner ul{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1rem 2rem ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+    gap: 2rem;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a .specializzazione{
+    color: rgb(185, 41, 23);
+}
+
+.grizzanti{
+    max-width: 320px;
+    max-height: 380px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.grizzanti p{
+    font-size:large;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.grizzanti .specializzazione{
+    font-size: small;
+    margin: -1rem 0 0 0.5rem;
+}
+
+.grizzanti img {
+    max-width: 100%;
+    margin-left: -0.5rem;
+    margin-top: 0.4rem;
+    border-radius: 10px;
+
+}
+
+.chiabrando{
+    max-width: 320px;
+    max-height: 380px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.chiabrando p{
+    font-size:large;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.chiabrando .specializzazione{
+    font-size: small;
+    margin: -1rem 0 0 0.5rem;
+}
+
+.chiabrando img {
+    max-width: 100%;
+    margin-left: -0.5rem;
+    margin-top: 0.8rem;
+    border-radius: 10px;
+}
+
+.massimodradi{
+    max-width: 320px;
+    max-height: 380px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.massimodradi p{
+    font-size:large;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.massimodradi .specializzazione{
+    font-size: small;
+    margin: -1rem 0 0 0.5rem;
+}
+
+.massimodradi img {
+    max-width: 105%;
+    margin-left: -0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
 }

@@ -39,12 +39,12 @@ header img{
     height: 40px;
 }
 
-div.hero{
+div.heroimg{
     position: relative; 
     display: flex;
 }
 
-div.hero img.sfondo{
+div.heroimg img.sfondo{
     max-width: 100%;
     opacity: 40%;
     margin-left: 1rem;
@@ -81,26 +81,23 @@ main {
 }
 
 .card h3 {
-    padding-top: 1rem;
+    padding-top: -0.5rem;
 }
 
 .campografico img {
     border-radius: 0;
-    margin: 0rem 2rem 1rem 2rem;
+    margin: 2rem 2rem 2rem 2rem;
     object-fit: cover;
     height: 250px;
 }
 
-.campografico p{
+.testocg{
     margin-right: 2rem;
+    margin-top: 1rem;
 }
 
 .campografico{
     display: flex;
-}
-
-main div h3{
-    margin-left: 2rem;
 }
 
 .campisti{
@@ -113,9 +110,14 @@ main div h3{
     display: flex;
 }
 
+.owl-carousel{
+    justify-content: center;
+    align-items: center;
+}
+
 .item{
     width: 100%;
-    height: 280px;
+    height: 70%;
     background-color: rgb(240,240,240);
     border-radius: 10px;
 }
@@ -127,22 +129,24 @@ main div h3{
 
 .item img{
     border-radius: 10px;
-    max-width: 90%;
+    max-width: 80%;
 }
 
 .associazione img {
     border-radius: 0;
-    margin: 0rem 2rem 1rem 2rem;
+    margin: 2rem 2rem 2rem 2rem;
     object-fit: cover;
     height: 250px;
 }
 
-.associazione p{
+.associazione .testo{
     margin-right: 2rem;
+    margin-top: 1rem;
 }
 
 .associazione{
     display: flex;
+    margin-top: 5rem;
 }
 
 footer{

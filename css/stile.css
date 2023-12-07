@@ -39,14 +39,9 @@ header img{
     height: 40px;
 }
 
-.hero{
-    display: flex;
-}
-
 .info{
-    margin: 3rem;
-    margin-top: 10rem;
-    padding-left: 5rem;
+    margin-top: -15rem;
+    margin-right: 5rem;
 }
 
 .info h1{
@@ -61,25 +56,46 @@ header img{
 .info p{
     max-width: 250px;
 }
+
+.hero{
+    width: 100%;
+    height: auto;
+    margin-top: 9rem;
+    display: flex;
+}
+
+.flex{
+    justify-content: center;
+    align-items: center;
+}
+
 .hero img{
     max-width: 100%;
-    padding-top: 3rem;
-    padding-left: 8rem;
 }
 
 .descrizione p{
     max-width: 250px;
-    margin-top: 30rem;
-    padding-left: 10rem;
+    padding-left: 5rem;
+    padding-right: 2rem;
 }
 
+.box{
+    width: 100%;
+    height: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .testo {
     max-width: 700px;  
     margin: 0 25rem 0 25rem; 
 }
 
 .testo h3{
-    margin-top: 15rem;
+    margin-top: 8rem;
 }
 
 .futura{
@@ -88,7 +104,7 @@ header img{
 }
 
 .futura img{
-    max-width: 700px;
+    max-width: 100%;
 }
 
 .rivista{

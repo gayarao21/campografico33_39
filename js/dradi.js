@@ -1,4 +1,4 @@
-var modald = document.getElementById("dradiModal");
+var dradiModal = document.getElementById("modald");
 var modale_dradi = document.getElementById("modalImaged");
 var dradi = document.getElementsByClassName("dradi");
 var closeModal = document.getElementById("close");
