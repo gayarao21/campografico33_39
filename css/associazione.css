@@ -166,7 +166,7 @@ a .specializzazione{
     border-radius: 10px;
 }
 
-.massimodradi{
+.massimo{
     max-width: 320px;
     max-height: 380px;
     background-color: rgb(240, 240, 240);
@@ -175,20 +175,129 @@ a .specializzazione{
     cursor: pointer;
 }
 
-.massimodradi p{
+.massimo p{
     font-size:large;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
 }
 
-.massimodradi .specializzazione{
+.massimo .specializzazione{
     font-size: small;
     margin: -1rem 0 0 0.5rem;
 }
 
-.massimodradi img {
+.massimo img {
     max-width: 105%;
     margin-left: -0.5rem;
     margin-top: 0.5rem;
     border-radius: 10px;
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+  
+.modal-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.modale_grizzanti{
+    display: flex;
+    max-width: 80%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.img{
+    display: flex;
+}
+
+.grizzanti_mod{
+    margin-top: 2rem;
+    max-width: 50%;
+}
+
+.specifiche{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.specifiche .fondatore{
+    font-size: large;
+    margin-top: 0.5rem;
+}
+
+.specifiche .specializzazione{
+    font-size: small;
+    margin: -1rem 0 0 0;
+    color: rgb(185, 41, 23);
+}
+
+.specifiche .date{
+    margin-top: 2rem;
+    color: #b2afaf;
+}
+
+.info-fond{
+    display: flex;
+    gap: 3rem;
+    margin-top: -1.5rem;
+    color: #b2afaf;
+}
+
+.testofond-ass{
+    margin-right: 2rem;
+    margin-top: 5rem;
+}
+
+.modale_chiabrando{
+    display: flex;
+    max-width: 80%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.chiabrando-mod{
+    margin-top: 2rem;
+    max-width: 50%;
+}
+
+.modale_massimo{
+    display: flex;
+    max-width: 80%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.massimo-mod{
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+
+.close {
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+.close:hover {
+    color: #b2afaf;
+}
+
