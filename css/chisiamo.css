@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family: Inter, Jost, Arial, Helvetica, sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header a:hover{
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header p {
+    margin: 0;
+    font-size: 10pt;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 150px;
+}
+
+header img{
+    height: 40px;
+}
+
+.hero h1{
+    margin-top: 10rem;
+    margin-left: 7rem;
+    color: rgb(185, 41, 23);
+}
+
+.hero img{
+
+    opacity: 80%;
+    max-width: 100%;
+}
+
+.box{
+    width: 100%;
+    height: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testo{
+    max-width: 700px;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+

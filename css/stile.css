@@ -62,9 +62,6 @@ header img{
     height: auto;
     margin-top: 9rem;
     display: flex;
-}
-
-.flex{
     justify-content: center;
     align-items: center;
 }
@@ -89,9 +86,11 @@ header img{
     align-items: center;
     justify-content: center;
 }
+
 .testo {
     max-width: 700px;  
-    margin: 0 25rem 0 25rem; 
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .testo h3{
@@ -99,17 +98,13 @@ header img{
 }
 
 .futura{
-    margin: 5rem 25rem 0 25rem;
     max-width: 700px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .futura img{
     max-width: 100%;
-}
-
-.rivista{
-    max-width: 700px;
-    margin: 5rem 25rem 0 25rem;
 }
 
 footer{

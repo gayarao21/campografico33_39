@@ -56,13 +56,23 @@ div.descrizione p{
     margin-left: -1rem;
     margin-top: 5rem;
 }
-main {
+
+main .testo{
+    max-width: 700px;
     margin-top: 5rem;
-    margin-left: 300px;
-    margin-right: 300px;
-    gap: 10px;
-  
 }
+
+.box{
+    width: 100%;
+    height: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container{
     position: relative;
     max-width: 1350px;

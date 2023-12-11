@@ -76,14 +76,19 @@ header img{
 .descrizioni {
     max-width: 700px;
     margin: 5rem 0 0 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
+
 
 .subtitle{
     margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .subtitle2{
-    margin: 0;
+    margin: 0 2rem 0 2rem;
 }
 
 .fondatori-conteiner ul{
@@ -125,9 +130,9 @@ a .specializzazione{
 }
 
 .rossi img {
-    max-width: 334px;
+    max-width: 105%;
+    margin-top: 0.30rem;
     margin-left: -0.5rem;
-    margin-top: 0.5rem;
     border-radius: 10px;
 
 }
@@ -153,8 +158,8 @@ a .specializzazione{
 }
 
 .dradi img {
-    max-width: 325px;
-    margin-top: 0.5rem;
+    max-width: 100%;
+    margin-top: 0.8rem;
 }
 
 .modal {
