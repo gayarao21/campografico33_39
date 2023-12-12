@@ -301,3 +301,42 @@ a .specializzazione{
     color: #b2afaf;
 }
 
+footer{
+    background-color: rgb(240,240,240);
+    max-width: 100%;
+    margin-top: 10rem;
+}
+
+footer div p{
+    padding: 1rem;
+    font-size: smaller;
+    margin-top: -0.5rem;
+}
+
+
+.contatti{
+    display:flex;
+    margin-left: -24rem;
+
+}
+
+.marchi{
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.marchi img{
+    max-width: 100px;
+    margin-left: 1rem;
+}
+
+.abact{
+    display: flex;
+}
+
+.abact img{
+    max-width: 30px;
+    max-height: 30px;
+}

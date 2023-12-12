@@ -109,77 +109,33 @@ header img{
 
 footer{
     background-color: rgb(240,240,240);
+    max-width: 100%;
     margin-top: 10rem;
-    display: flex;
 }
+
 footer div p{
     padding: 1rem;
     font-size: smaller;
-    padding-left: 1rem;
     margin-top: -0.5rem;
 }
 
-.info{
-    margin-left: 3rem;
-    margin-right: 3rem;
+
+.contatti{
+    display:flex;
+    margin-left: -24rem;
+
 }
 
-.facebook{
+.marchi{
     display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
 }
 
-.facebook img{
-    max-width: 40px;
-    max-height: 30px;
-}
-
-.instagram{
-    display: flex;
-}
-
-.instagram img{
-    max-width: 30px;
-    max-height: 30px;
-}
-
-.web{
-    display: flex;
-}
-
-.web img{
-    max-width: 30px;
-    max-height: 30px;
-}
-
-.mail{
-    display: flex;
-}
-
-.mail img{
-    max-width: 30px;
-    max-height: 20px;
-}
-
-.facebookassociazione{
-    display: flex;
-}
-
-.facebookassociazione img{
-    max-width: 40px;
-    max-height: 30px;
-}
-
-.instaassociazione{
-    display: flex;
-}
-
-.instaassociazione img{
-    max-width: 30px;
-    max-height: 30px;   
-}
-
-.marchi1{
-    display: flex;
+.marchi img{
+    max-width: 100px;
+    margin-left: 1rem;
 }
 
 .abact{
@@ -189,17 +145,4 @@ footer div p{
 .abact img{
     max-width: 30px;
     max-height: 30px;
-}
-
-.associazioneculturale img{
-    max-width: 120px;
-    max-height: 40px;
-}
-
-.marchi2{
-    display: flex;
-}
-
-.marchi2 img{
-    max-width: 100px;
 }
