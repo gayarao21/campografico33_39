@@ -30,7 +30,7 @@ header {
     padding:0px 15px 0px 15px;
     color:#bfbfbf;
     border:0;
-    font-size:1.4em;
+    font-size: 2rem;
     font-weight:bold;
     cursor:pointer;
     outline:none;
@@ -97,6 +97,10 @@ header img{
     height: 40px;
 }
 
+.hero{
+    display: flex;
+}
+
 div.heroimg{
     position: relative; 
     display: flex;
@@ -109,9 +113,7 @@ div.heroimg img.sfondo{
 }
 
 div.testata {
-    position: absolute;
-    padding: 8rem;
-    margin-top: -30rem;
+    padding: 8rem 0 0 8rem;
 }
 
 div.testata h1{
@@ -221,6 +223,25 @@ div.testata p{
     display: flex;
 }
 
+.button{
+    max-width: 100px;
+    max-height: 30px;
+    font-size: 7pt;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+    color: rgb(240, 240, 240);
+    background-color: rgb(185, 41, 23);
+    border-radius: 10px;
+    border:0;
+    cursor:pointer;
+}
+
+.button:hover{
+    background-color: rgb(158, 32, 16);
+}
+
+
+
 footer{
     background-color: rgb(240,240,240);
     max-width: 100%;
@@ -237,7 +258,6 @@ footer div p{
 .contatti{
     display:flex;
     margin-left: -24rem;
-
 }
 
 .marchi{
@@ -259,8 +279,9 @@ footer div p{
 .abact img{
     max-width: 30px;
     max-height: 30px;
+    margin-left: -0.5rem;
 }
 
 .abact p{
-    font-size: 9pt;
+    font-size: 8pt;
 }
