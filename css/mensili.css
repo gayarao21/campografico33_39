@@ -226,7 +226,7 @@ div.contenitoremesi img{
 }
 @media (max-width:600px) {
     .contenitoremesi{
-        column-count: 1;
+        grid-template-columns: repeat(1, 1fr)
     }
     .contenitoremesi a {
         color: #000000;
@@ -235,10 +235,13 @@ div.contenitoremesi img{
     .contenitoremesi a span{
         position: relative;
         display: block;
+        margin-top: 50px;
+        font-size: 24px;
     }
     .contenitoremesi a:hover::before{
         background: none;
     }
+    
 }
 
 

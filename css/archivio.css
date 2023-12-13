@@ -105,8 +105,9 @@ div.hero img{
     max-width: 100%;
 }
 div.testata {
-    padding: 8rem;
-    margin-left: -60px;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin:auto;
 }
 div.testata h1{
     color: rgb(185, 41, 23);
@@ -114,20 +115,22 @@ div.testata h1{
 div.testata p{
     width: 300px;
 }
-div.descrizione p{
-    margin-left: -1rem;
-    margin-top: 5rem;
-}
-main .testo{
-    max-width: 700px;
-    margin-top: 5rem;
-}
+main {
 
+    padding: 8rem;
+    margin:auto;
+}
+.testo{
+    max-width: 700px;
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+    line-height: 1.5;
+    font-size: 18px;
+}
 .box{
     width: 100%;
     height: auto;
 }
-
 .flex{
     display: flex;
     align-items: center;
@@ -196,6 +199,24 @@ button.active {
 .filterable_cards span{
     font-size: 20px;
 }
+@media (max-width:600px) {
+    .filterable_cards{
+        column-count: 1;
+    }
+    .filterable_cards a {
+        color: #000000;
+
+    }
+    .filterable_cards a span{
+        position: relative;
+        display: block;
+        margin-top: 50px;
+        font-size: 24px;
+    }
+    .filterable_cards a:hover::before{
+        background: none;
+    }
+}
 .card{
     flex-basis: 180px;
 }
@@ -208,13 +229,13 @@ button.active {
 footer{
     background-color: rgb(240,240,240);
     max-width: 100%;
-    margin-top: 10rem;
+    margin: 0;
 }
 
 footer div p{
     padding: 1rem;
     font-size: smaller;
-    margin-top: -0.5rem;
+    margin-top:auto;
 }
 
 .contatti{
