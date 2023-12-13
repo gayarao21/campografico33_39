@@ -8,30 +8,94 @@ header a {
     text-decoration: none;
     color: #000000;
 }
+
 header a:hover{
     font-weight: bold;
 }
+
 header {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
-header p {
-    margin: 0;
-    font-size: 10pt;
-    text-transform: uppercase;
+
+.hamburger{
+    background:none;
+    position:absolute;
+    top:0;
+    right:0;
+    line-height:45px;
+    padding:0px 15px 0px 15px;
+    color:#bfbfbf;
+    border:0;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
 }
-header nav ul {
-    margin:0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 150px;
+  
+.cross{
+    background:none;
+    position:absolute;
+    top:0px;
+    right:0;
+    padding:0px 15px 0px 15px;
+    color:#bfbfbf;
+    border:0;
+    font-size:3em;
+    line-height:65px;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
 }
+
+.menu{
+    z-index:1000000; 
+    font-size:0.8em; width:100%; 
+    background:#ffffff;  
+    position:absolute; 
+    text-align:center;
+}
+.menu ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none;
+}
+.menu li {
+    display: block;   
+    padding:15px 0 15px 0; 
+}
+.menu li:hover{
+    display: block;    
+    background-color:#f3f3f3; 
+    padding:15px 0 15px 0; 
+}
+.menu ul li a { 
+    text-decoration:none;  
+    margin: 0px; 
+    color:#000000;
+}
+.menu ul li a:hover {  
+    color: #000000; 
+    text-decoration:none;
+}
+.menu a{
+    text-decoration:none; 
+    color:rgb(0, 0, 0);
+}
+.menu a:hover{
+    text-decoration:none; 
+    color:rgb(0, 0, 0);
+}
+
 header img{
     height: 40px;
 }
+
 .hero{
     display: flex;
     justify-content: center;
@@ -141,111 +205,46 @@ div.contenitoremesi img{
 }
 
 
-
 footer{
     background-color: rgb(240,240,240);
+    max-width: 100%;
     margin-top: 10rem;
-    display: flex;
 }
+
 footer div p{
     padding: 1rem;
     font-size: smaller;
-    padding-left: 1rem;
     margin-top: -0.5rem;
 }
 
-.info{
-    margin-left: 3rem;
-    margin-right: 3rem;
+
+.contatti{
+    display:flex;
+    margin-left: -24rem;
+
 }
 
-.facebook{
+.marchi{
     display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
 }
 
-.facebook img{
-    max-width: 40px;
-    max-height: 30px;
-}
-
-.instagram{
-    display: flex;
-}
-
-.instagram img{
-    max-width: 30px;
-    max-height: 30px;
-}
-
-.web{
-    display: flex;
-}
-
-.web img{
-    max-width: 30px;
-    max-height: 30px;
-}
-
-.mail{
-    display: flex;
-}
-
-.mail img{
-    max-width: 30px;
-    max-height: 20px;
-}
-
-.facebookassociazione{
-    display: flex;
-}
-
-.facebookassociazione img{
-    max-width: 40px;
-    max-height: 30px;
-}
-
-.instaassociazione{
-    display: flex;
-}
-
-.instaassociazione img{
-    max-width: 30px;
-    max-height: 30px;   
-}
-
-.marchi1{
-    display: flex;
+.marchi img{
+    max-width: 100px;
+    margin-left: 1rem;
 }
 
 .abact{
     display: flex;
-    margin-top: 6rem;
-    gap: 20px;
 }
 
 .abact img{
     max-width: 30px;
     max-height: 30px;
 }
-.associazioneculturale {
-    display: flex;
-    margin-top: 6rem;
-    gap: 20px;
-}
-.associazioneculturale img{
-    max-width: 120px;
-    max-height: 40px;
-}
-.marchi2{
-    display: flex;
-    margin-top: 6rem;
-    gap: 20px;
-}
-.marchi2 img{
-    max-width: 100px;
-}
-footer a{
-    text-decoration: none;
-    color: #000000;
-    cursor: pointer;
+
+.abact p{
+    font-size: 9pt;
 }

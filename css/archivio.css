@@ -100,10 +100,9 @@ div.hero{
     display: flex;
 }
 div.hero img{
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     max-width: 100%;
-    opacity: 100%;
 }
 div.testata {
     padding: 8rem;
