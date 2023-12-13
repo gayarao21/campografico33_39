@@ -107,6 +107,8 @@ header img{
 
 .hero{
     display: flex;
+    max-width: 100%;
+    height: auto;
 }
 
 div.heroimg{
@@ -117,24 +119,20 @@ div.heroimg{
 div.heroimg img.sfondo{
     max-width: 100%;
     opacity: 40%;
-    margin-left: 1rem;
 }
 
-div.testata {
-    padding: 8rem 0 0 8rem;
+.testata{
+    margin: 0%;
+    width: 400px;
+    padding-left: 3rem;
 }
 
-div.testata h1{
+h1{
     color: rgb(185, 41, 23);
 }
-div.testata h2{
-    width: 270px;
-    margin-top: -1rem;
-    width: 50;
-}
 
-div.testata p{
-    width: 300px;
+h2{
+    font-size: 16pt;
 }
 
 .box{
@@ -149,6 +147,7 @@ div.testata p{
 }
 
 .card {
+    display: flex;
     max-width: 700px;
     background: rgb(240,240,240);
     border-radius: 10px;
@@ -194,10 +193,6 @@ div.testata p{
     display: flex;
 }
 
-.campisti .button{
-    margin-left: 85%;
-}
-
 .owl-carousel{
     justify-content: center;
     align-items: center;
@@ -232,22 +227,22 @@ div.testata p{
 
 .associazione .testo{
     margin-right: 2rem;
-    margin-top: 0.5rem;
 }
 
 .associazione{
     display: flex;
+    max-width: 700px;
+    background: rgb(240,240,240);
+    border-radius: 10px;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
-.associazione .button{
-    margin-left: 75%;
-}
 
 .button{
-    max-width: 100px;
-    max-height: 30px;
-    font-size: 7pt;
-    margin-top: -0.5rem;
+    max-width: 100%;
+    height: auto;
+    padding: 0.5rem;
     margin-bottom: 1.5rem;
     color: rgb(246, 246, 246);
     background-color: rgb(185, 41, 23);
@@ -304,4 +299,105 @@ footer div p{
 
 .abact p{
     font-size: 8pt;
+    color: #000000;
+}
+
+@media(max-width: 1100px){
+    h1{
+        font-size: 20pt;
+    }
+    h2{
+        font-size: 14pt;
+    }
+}
+@media(max-width: 925px){
+    h1{
+        width: 250px;
+    }
+    h2{
+        width: 250px;
+    }
+    .testata p{
+        width: 250px;
+    }
+}
+
+@media(max-width: 750px){
+    h1{
+        font-size: 16pt;
+        width: 200px;
+    }
+    h2{
+        font-size: 12pt;
+        width: 200px;
+    }
+    .testata p{
+        font-size: 10pt;
+        width: 200px;
+    }
+    .associazione{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .associazione img{
+        margin: 2rem 2rem 0 2rem;
+    }
+    .associazione .testo{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .associazione .testo h3{
+        text-align: center;
+    }
+    
+}
+@media(max-width: 675px){
+    .card{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .campografico img{
+        margin: 2rem 2rem 0 2rem;
+    }
+    .testocg{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .campisti{
+
+    }
+}
+@media(max-width: 600px){
+    .testata{
+        width: 100px;
+        z-index: 1;
+    }
+    h1{
+        font-size: 14pt;
+        width: 170px;
+    }
+    h2{
+        margin-top: -0.5rem;
+        font-size: 11pt;
+        width: 170px;
+    }
+    .testata p{
+        margin-top: -0.5rem;
+        font-size: 8pt;
+        width: 150px;
+    }
+}
+@media(max-width: 505px){
+    .marchi img{
+        max-width: 60px;
+    }
+    .abact p{
+        font-size: 6pt;
+    }
+    .contatti{
+        font-size: 10pt;
+        margin-left: -17rem;
+    }
 }
