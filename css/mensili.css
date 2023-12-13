@@ -29,11 +29,15 @@ header {
     padding:0px 15px 0px 15px;
     color:#bfbfbf;
     border:0;
-    font-size:1.4em;
+    font-size: 1.5rem;
     font-weight:bold;
     cursor:pointer;
     outline:none;
     z-index:10000000000000;
+}
+
+.hamburger:hover{
+    color:#9f9f9f;
 }
   
 .cross{
@@ -50,6 +54,50 @@ header {
     cursor:pointer;
     outline:none;
     z-index:10000000000000;
+}
+
+.cross:hover{
+    color:#9f9f9f;
+}
+
+.menu{
+    z-index:1000000; 
+    font-size:0.8em; width:100%; 
+    background:#ffffff;  
+    position:absolute; 
+    text-align:center;
+}
+.menu ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none;
+}
+.menu li {
+    display: block;   
+    padding:15px 0 15px 0; 
+}
+.menu li:hover{
+    display: block;    
+    background-color:#f3f3f3; 
+    padding:15px 0 15px 0; 
+}
+.menu ul li a { 
+    text-decoration:none;  
+    margin: 0px; 
+    color:#000000;
+}
+.menu ul li a:hover {  
+    color: #000000; 
+    text-decoration:none;
+}
+.menu a{
+    text-decoration:none; 
+    color:rgb(0, 0, 0);
+}
+.menu a:hover{
+    text-decoration:none; 
+    color:rgb(0, 0, 0);
 }
 
 .menu{
@@ -132,6 +180,7 @@ div.item h4{
     justify-content: center;
 }
 div.owl-carousel.owl-theme{
+    margin-top: 2rem;
     height: 300px;
 }
 div.contenitoremesi img{
@@ -147,6 +196,7 @@ div.contenitoremesi img{
     grid-template-columns: repeat(6, 1fr);
     margin-left: 9rem;
     margin-right: 9rem;
+    margin-top: 10rem;
     justify-content: center;
     align-items: center;
 }
@@ -208,7 +258,7 @@ div.contenitoremesi img{
 footer{
     background-color: rgb(240,240,240);
     max-width: 100%;
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 
 footer div p{
@@ -221,7 +271,17 @@ footer div p{
 .contatti{
     display:flex;
     margin-left: -24rem;
+}
 
+.box{
+    width: 100%;
+    height: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .marchi{
@@ -243,8 +303,9 @@ footer div p{
 .abact img{
     max-width: 30px;
     max-height: 30px;
+    margin-left: -0.5rem;
 }
 
 .abact p{
-    font-size: 9pt;
+    font-size: 8pt;
 }

@@ -141,9 +141,22 @@ header img{
     margin-top: 6rem;
 }
 
+.box{
+    width: 100%;
+    height: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .testo {
     max-width: 700px;  
-    margin: 11rem 25rem 0 25rem; 
+    margin-top: 11rem; 
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .testo h3{
