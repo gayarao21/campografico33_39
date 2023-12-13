@@ -30,11 +30,15 @@ header {
     padding:0px 15px 0px 15px;
     color:#bfbfbf;
     border:0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight:bold;
     cursor:pointer;
     outline:none;
     z-index:10000000000000;
+}
+
+.hamburger:hover{
+    color:#9f9f9f;
 }
   
 .cross{
@@ -51,6 +55,10 @@ header {
     cursor:pointer;
     outline:none;
     z-index:10000000000000;
+}
+
+.cross:hover{
+    color:#9f9f9f;
 }
 
 .menu{
@@ -162,11 +170,15 @@ div.testata p{
 
 .testocg{
     margin-right: 2rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .campografico{
     display: flex;
+}
+
+.campografico .button{
+    margin-left: 80%;
 }
 
 .campisti{
@@ -180,6 +192,10 @@ div.testata p{
 .campisti img{
     max-width: 100%;
     display: flex;
+}
+
+.campisti .button{
+    margin-left: 85%;
 }
 
 .owl-carousel{
@@ -216,11 +232,15 @@ div.testata p{
 
 .associazione .testo{
     margin-right: 2rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .associazione{
     display: flex;
+}
+
+.associazione .button{
+    margin-left: 75%;
 }
 
 .button{
@@ -229,7 +249,7 @@ div.testata p{
     font-size: 7pt;
     margin-top: -0.5rem;
     margin-bottom: 1.5rem;
-    color: rgb(240, 240, 240);
+    color: rgb(246, 246, 246);
     background-color: rgb(185, 41, 23);
     border-radius: 10px;
     border:0;

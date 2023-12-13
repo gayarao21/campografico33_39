@@ -68,6 +68,7 @@ div.item h4{
     justify-content: center;
 }
 div.owl-carousel.owl-theme{
+    margin-top: 2rem;
     height: 300px;
 }
 div.contenitoremesi img{
@@ -83,6 +84,7 @@ div.contenitoremesi img{
     grid-template-columns: repeat(6, 1fr);
     margin-left: 9rem;
     margin-right: 9rem;
+    margin-top: 10rem;
     justify-content: center;
     align-items: center;
 }
@@ -144,108 +146,55 @@ div.contenitoremesi img{
 
 footer{
     background-color: rgb(240,240,240);
-    margin-top: 10rem;
-    display: flex;
+    max-width: 100%;
+    margin-top: 15rem;
 }
+
 footer div p{
     padding: 1rem;
     font-size: smaller;
-    padding-left: 1rem;
     margin-top: -0.5rem;
 }
 
-.info{
-    margin-left: 3rem;
-    margin-right: 3rem;
+
+.contatti{
+    display:flex;
+    margin-left: -24rem;
 }
 
-.facebook{
+.box{
+    width: 100%;
+    height: auto;
+}
+
+.flex{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.facebook img{
-    max-width: 40px;
-    max-height: 30px;
-}
-
-.instagram{
+.marchi{
     display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
 }
 
-.instagram img{
-    max-width: 30px;
-    max-height: 30px;
-}
-
-.web{
-    display: flex;
-}
-
-.web img{
-    max-width: 30px;
-    max-height: 30px;
-}
-
-.mail{
-    display: flex;
-}
-
-.mail img{
-    max-width: 30px;
-    max-height: 20px;
-}
-
-.facebookassociazione{
-    display: flex;
-}
-
-.facebookassociazione img{
-    max-width: 40px;
-    max-height: 30px;
-}
-
-.instaassociazione{
-    display: flex;
-}
-
-.instaassociazione img{
-    max-width: 30px;
-    max-height: 30px;   
-}
-
-.marchi1{
-    display: flex;
+.marchi img{
+    max-width: 100px;
+    margin-left: 1rem;
 }
 
 .abact{
     display: flex;
-    margin-top: 6rem;
-    gap: 20px;
 }
 
 .abact img{
     max-width: 30px;
     max-height: 30px;
+    margin-left: -0.5rem;
 }
-.associazioneculturale {
-    display: flex;
-    margin-top: 6rem;
-    gap: 20px;
-}
-.associazioneculturale img{
-    max-width: 120px;
-    max-height: 40px;
-}
-.marchi2{
-    display: flex;
-    margin-top: 6rem;
-    gap: 20px;
-}
-.marchi2 img{
-    max-width: 100px;
-}
-footer a{
-    text-decoration: none;
-    color: #000000;
-    cursor: pointer;
+
+.abact p{
+    font-size: 8pt;
 }
