@@ -1,7 +1,7 @@
-var modal = document.getElementById("myModal");
-var modale_rossi = document.getElementById("modalImage");
+var modal = document.getElementById("myModal-1");
+var modale_rossi = document.getElementById("modalImage-1");
 var rossi = document.getElementsByClassName("rossi");
-var closeModal = document.getElementById("closeModal");
+var closeModal = document.getElementById("closeModal-1");
 
 for (var i = 0; i < rossi.length; i++) {
     rossi[i].addEventListener("click", function() {
@@ -20,9 +20,6 @@ window.addEventListener("click", function(event) {
       modal.style.display = "none";
     }
 });
-
-
-
 
 
 

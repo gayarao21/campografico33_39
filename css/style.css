@@ -366,8 +366,8 @@ footer div p{
         margin-right: 2rem;
         margin-left: 2rem;
     }
-    .campisti{
-
+    .testata{
+        padding-left: 2rem;
     }
 }
 @media(max-width: 600px){

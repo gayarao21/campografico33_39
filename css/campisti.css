@@ -142,7 +142,6 @@ header img{
     margin-right: 2rem;
 }
 
-
 .subtitle{
     margin-top: 5rem;
     margin-left: 2rem;
@@ -181,6 +180,10 @@ a .specializzazione{
     cursor: pointer;
 }
 
+.rossi:hover{
+    background-color: rgb(230, 230, 230);
+}
+
 .rossi p{
     font-size:large;
     margin-top: 0.5rem;
@@ -206,6 +209,10 @@ a .specializzazione{
     border-radius: 10px;
     padding: 0.5rem;
     cursor: pointer;
+}
+
+.dradi:hover{
+    background-color: rgb(230, 230, 230);
 }
 
 .dradi p{
@@ -250,14 +257,8 @@ a .specializzazione{
     border-radius: 10px;
 }
 
-.modal-contentd{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
 
-.dradiModal {
+.modal2 {
     display: none;
     position: fixed;
     z-index: 9999;
@@ -271,20 +272,27 @@ a .specializzazione{
 
 .modale_rossi{
     display: flex;
-    max-width: 80%;
+    max-width: 1000px;
+    margin: 0 2rem 0 2rem;
     background-color: rgb(240, 240, 240);
     border-radius: 10px;
 }
 
 .modale_dradi{
     display: flex;
-    max-width: 80%;
+    max-width: 1000px;
+    margin: 0 2rem 0 2rem;
     background-color: rgb(240, 240, 240);
     border-radius: 10px;
 } 
 
-.img{
+.attilio_rossi{
     display: flex;
+}
+
+.attilio_rossi img{
+    max-width: 100%;
+    height: auto;
 }
 
 .img-d{
@@ -293,9 +301,9 @@ a .specializzazione{
 }
 
 .specifiche{
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    max-width: 400px;
+    padding: 2rem 2rem 0 2rem;
+
 }
 
 .specifiche .fondatore{
@@ -381,8 +389,8 @@ a .specializzazione{
     padding-right: 2rem;
 }
 
-.print p{
-    margin-top: -4rem;
+.print h3{
+    width: 700px;
 }
 
 footer{
