@@ -11,33 +11,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    <header>
-        <a href="index.html"><img src="immagini/marchio.png" alt="marchio"></a>
-        <button class="hamburger">&#9776;</button>
-        <button class="cross">&#735;</button>
-    </header>
-    <nav>
-        <div class="menu">
-            <ul>
-                <a href="campografico.html"><li>CAMPO GRAFICO</li></a>
-                <a href="campisti.html"><li>CAMPISTI</li></a>
-                <a href="archivio.html"><li>ARCHIVIO</li></a>
-                <a href="associazione.html"><li>ASSOCIAZIONE</li></a>
-            </ul>
-        </div>
-    </nav>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src="js/menu.js"></script>
+    <header>      
+        <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+          <nav>
+              <ul id="menu">
+                  <li><a href="campografico.html">CAMPO GRAFICO</a></li>
+                  <li><a href="campisti.html">CAMPISTI</a></li>
+              </ul>
+              <div>
+                  <a href="index.html"><img src="immagini/marchio.png" alt="marchio"></a>
+              </div>
+              <ul id="menu">
+                  <li><a href="archivio.html">ARCHIVIO</a></li>
+                  <li><a href="associazione.html">ASSOCIAZIONE</a></li>
+              </ul>
+          </nav>
+  </header>
     
     <main>
-        <div class="hero">
-            <div class="info">
-                <h1>CAMPISTI</h1>
-                <p>Si intendevano sia i fondatori che tutti coloro che hanno partecipato 
-                    alla realizzazione e produzione di tutti i numeri della Rivista.
-                </p>
+        <div class="box flex">
+            <div class="hero">
+                <div class="info">
+                    <h1>CAMPISTI</h1>
+                    <p>Si intendevano sia i fondatori che tutti coloro che hanno partecipato 
+                        alla realizzazione e produzione di tutti i numeri della Rivista.
+                    </p>
+                </div>
+                <img src="immagini/campisti/Campisti.png" alt="campisti">
             </div>
-            <img src="immagini/campisti/campisti.png" alt="campisti">
         </div>
         <div class="box flex">
             <div class="descrizioni">
@@ -76,52 +82,54 @@
                 </li>
             </ul>
         </div>
-        
-    <div id="myModal-1" class="modal">
-        <div class="modal-content">
-            <span id="closeModal-1" class="close">&times;</span>
-            <div id="modalImage-1" src="" class="modale_rossi">
-                <div class="attilio_rossi">
-                    <img src="immagini/campisti/attilio rossi.png" alt="rossi">
-                    <div class="specifiche">
-                        <p class="fondatore">ATTILIO ROSSI</p>
-                        <p class="specializzazione">Pittore e grafico</p>
-                        <p class="date">DATE DI ESISTENZA</p>
-                        <div class="info-fond">
-                            <p>Luogo di nascita:<br>Data di nascita:<br>Luogo di morte:<br>Data di morte:</p>
-                            <p>Albairate (Milano) <br>25 marzo 1909 <br> Milano <br>6 aprile 1994</p>
+    <div class="modali">
+        <div id="myModal-1" class="modal">
+            <div class="modal-content">
+                <span id="closeModal-1" class="close">&times;</span>
+                <div id="modalImage-1" src="" class="modale_rossi">
+                    <div class="attilio_rossi">
+                        <img src="immagini/campisti/attilio rossi.png" alt="rossi">
+                        <div class="specifiche">
+                            <p class="fondatore">ATTILIO ROSSI</p>
+                            <p class="specializzazione">Pittore e grafico</p>
+                            <p class="date">DATE DI ESISTENZA</p>
+                            <div class="info-fond">
+                                <p>Luogo di nascita:<br>Data di nascita:<br>Luogo di morte:<br>Data di morte:</p>
+                                <p>Albairate (Milano) <br>25 marzo 1909 <br> Milano <br>6 aprile 1994</p>
+                            </div>
+                            <p class="testo">Nel 1925 iniziò a lavorare come tipografo e impaginatore all’Istituto
+                                grafico Bertieri e Vanzetti di Milano. Nella prima metà degli anni Trenta i suoi 
+                                riferimenti culturali erano il Bauhaus di Walter Gropius, le teorie di Le Corbusier,
+                                Piet Mondrian e Pablo Picasso. Nel 1933 fu tra i fondatori della rivista Campo grafico, 
+                                concepita come una continuazione ideale del Bauhaus.
+                            </p>
                         </div>
-                        <p class="testo">Nel 1925 iniziò a lavorare come tipografo e impaginatore all’Istituto
-                            grafico Bertieri e Vanzetti di Milano. Nella prima metà degli anni Trenta i suoi 
-                            riferimenti culturali erano il Bauhaus di Walter Gropius, le teorie di Le Corbusier,
-                            Piet Mondrian e Pablo Picasso. Nel 1933 fu tra i fondatori della rivista Campo grafico, 
-                            concepita come una continuazione ideale del Bauhaus.
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="myModal-2" class="modal2">
-        <div class="modal-content">
-            <span id="closeModal-2" class="close">&times;</span>
-            <div id="modalImage-2" class="modale_dradi">
-                <div class="img-d">
-                    <img src="immagini/campisti/dradi.png" alt="dradi">
-                    <div class="specifiche">
-                        <p class="fondatore">CARLO DRADI</p>
-                        <p class="specializzazione">Grafico e operatore culturale</p>
-                        <p class="date">DATE DI ESISTENZA</p>
-                        <div class="info-fond">
-                            <p>Luogo di nascita:<br>Data di nascita:<br>Luogo di morte:<br>Data di morte:</p>
-                            <p>Milano <br> 1908 <br> Milano <br> 1982</p>
+
+        <div id="myModal-2" class="modal2">
+            <div class="modal-content">
+                <span id="closeModal-2" class="close">&times;</span>
+                <div id="modalImage-2" class="modale_dradi">
+                    <div class="carlo_dradi">
+                        <img src="immagini/campisti/dradi.png" alt="dradi">
+                        <div class="specifiche">
+                            <p class="fondatore">CARLO DRADI</p>
+                            <p class="specializzazione">Grafico e operatore culturale</p>
+                            <p class="date">DATE DI ESISTENZA</p>
+                            <div class="info-fond">
+                                <p>Luogo di nascita:<br>Data di nascita:<br>Luogo di morte:<br>Data di morte:</p>
+                                <p>Milano <br> 1908 <br> Milano <br> 1982</p>
+                            </div>
+                            <p class="testo">Carlo Dradi, grafico e operatore culturale, è stato particolarmente attivo 
+                                dai primi anni ’30 a tutti i ’60. Tra i fondatori di «Campo Grafico», la nota rivista di 
+                                “estetica e tecnica grafica“, e del Centro di Studi Grafici (CSG) ma anche direttore di 
+                                «Linea Grafica».È stato tra i fondatori di Aiap - Associazione italiana design della 
+                                comunicazione visiva.
+                            </p>
                         </div>
-                        <p class="testo">Carlo Dradi, grafico e operatore culturale, è stato particolarmente attivo 
-                            dai primi anni ’30 a tutti i ’60. Tra i fondatori di «Campo Grafico», la nota rivista di 
-                            “estetica e tecnica grafica“, e del Centro di Studi Grafici (CSG) ma anche direttore di 
-                            «Linea Grafica».È stato tra i fondatori di Aiap - Associazione italiana design della 
-                            comunicazione visiva.
-                        </p>
                     </div>
                 </div>
             </div>
@@ -141,10 +149,12 @@
             </p>
         </div>
     </div>
-    <div class="campisti-1">
-        <img src="immagini/campisti/1campisti.png" alt="campisti">
+    <div class="box flex">
+        <div class="campisti-1">
+            <img src="immagini/campisti/1campisti.png" alt="campisti">
+            <p class="foto">Da sinistra: Bruno Pallavera, Attilio Rossi, Pasinetti, Giuseppe Muggiani, Augusto Arguti e Carlo Dradi (seduto).</p>
+        </div>
     </div>
-   <p class="foto">Da sinistra: Bruno Pallavera, Attilio Rossi, Pasinetti, Giuseppe Muggiani, Augusto Arguti e Carlo Dradi (seduto).</p>
    <div class="box flex">
         <div class="descrizioni">
             <h3 class="subtitle2">VENTITRÉ SONO LE FIRME DEGLI AUTORI DELLE 66 COPERTINE </h3>
@@ -156,8 +166,10 @@
             </p>
         </div>
     </div>
-    <div class="firme">
-        <img src="immagini/campisti/firme.png" alt="firme">
+    <div class="box flex">
+        <div class="firme">
+            <img src="immagini/campisti/firme.png" alt="firme">
+        </div>
     </div>
     <div class="box flex">
         <div class="descrizioni">

@@ -171,6 +171,7 @@ h2{
 .testocg{
     margin-right: 2rem;
     margin-top: 0.5rem;
+    line-height: 1.5;
 }
 
 .campografico{
@@ -194,6 +195,10 @@ h2{
     display: flex;
 }
 
+.campisti p{
+    line-height: 1.5;
+}
+
 .owl-carousel{
     justify-content: center;
     align-items: center;
@@ -204,9 +209,11 @@ h2{
 
 .item{
     width: 100%;
-    height: 70%;
+    height: auto;
     background-color: rgb(240,240,240);
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .item h4{
@@ -216,7 +223,7 @@ h2{
 
 .item img{
     border-radius: 10px;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .associazione img {
@@ -228,6 +235,7 @@ h2{
 
 .associazione .testo{
     margin-right: 2rem;
+    line-height: 1.5;
 }
 
 .associazione{
@@ -390,6 +398,19 @@ footer div p{
         width: 150px;
     }
 }
+@media(max-width: 505px){
+    .marchi img{
+        max-width: 60px;
+    }
+    .abact p{
+        font-size: 6pt;
+    }
+    .contatti{
+        font-size: 10pt;
+        margin-left: -17rem;
+    }
+}
+
 @media(max-width: 505px){
     .marchi img{
         max-width: 60px;
