@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color:white;
     font-family: Inter, Jost, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 header a {
     text-decoration: none;
@@ -180,8 +181,8 @@ div.item h4{
     justify-content: center;
 }
 div.owl-carousel.owl-theme{
-    margin-top: 2rem;
     height: 300px;
+    margin-bottom: 8rem;
 }
 div.contenitoremesi img{
     max-width: 100%;
@@ -224,6 +225,11 @@ div.contenitoremesi img{
 .contenitoremesi span{
     font-size: 20px;
 }
+@media (max-width:1000px) {
+    .contenitoremesi{
+        grid-template-columns: repeat(3, 3fr)
+    }
+}
 @media (max-width:600px) {
     .contenitoremesi{
         grid-template-columns: repeat(1, 1fr)
@@ -241,14 +247,26 @@ div.contenitoremesi img{
     .contenitoremesi a:hover::before{
         background: none;
     }
-    
+    div.descrizione p{
+        margin-top: -4rem;
+        margin-left: -4rem;
+    }
+    .info{
+        margin: auto;
+    }
+    .hero img{
+        padding-top: 1rem;
+    }
+    .owl-carousel.owl-theme{
+        margin-bottom: 15rem;
+    }
 }
 
 
 footer{
     background-color: rgb(240,240,240);
     max-width: 100%;
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 
 footer div p{
@@ -298,4 +316,116 @@ footer div p{
 
 .abact p{
     font-size: 8pt;
+}
+@media(max-width: 1100px){
+    h1{
+        font-size: 20pt;
+    }
+    h2{
+        font-size: 14pt;
+    }
+}
+@media(max-width: 925px){
+    h1{
+        width: 250px;
+    }
+    h2{
+        width: 250px;
+    }
+    .testata p{
+        width: 250px;
+    }
+}
+
+@media(max-width: 750px){
+    h1{
+        font-size: 16pt;
+        width: 200px;
+    }
+    h2{
+        font-size: 12pt;
+        width: 200px;
+    }
+    .testata p{
+        font-size: 10pt;
+        width: 200px;
+    }
+    .associazione{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .associazione img{
+        margin: 2rem 2rem 0 2rem;
+    }
+    .associazione .testo{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .associazione .testo h3{
+        text-align: center;
+    }
+    
+}
+@media(max-width: 675px){
+    .card{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .campografico img{
+        margin: 2rem 2rem 0 2rem;
+    }
+    .testocg{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .testata{
+        padding-left: 2rem;
+    }
+}
+@media(max-width: 600px){
+    .testata{
+        width: 100px;
+        z-index: 1;
+    }
+    h1{
+        font-size: 14pt;
+        width: 170px;
+    }
+    h2{
+        margin-top: -0.5rem;
+        font-size: 11pt;
+        width: 170px;
+    }
+    .testata p{
+        margin-top: -0.5rem;
+        font-size: 8pt;
+        width: 150px;
+    }
+}
+@media(max-width: 505px){
+    .marchi img{
+        max-width: 60px;
+    }
+    .abact p{
+        font-size: 6pt;
+    }
+    .contatti{
+        font-size: 10pt;
+        margin-left: -17rem;
+    }
+}
+
+@media(max-width: 505px){
+    .marchi img{
+        max-width: 60px;
+    }
+    .abact p{
+        font-size: 6pt;
+    }
+    .contatti{
+        font-size: 10pt;
+        margin-left: -17rem;
+    }
 }

@@ -168,9 +168,8 @@
         <div class="card hide" data-name="1935">
             <a href="gen1935.html"><img src="immagini/archivio/1935/Gen 1935/gen 1935.png" id="I935"><span>Gennaio<br/>1935</span></a>
         </div>
-        </div>
         <div class="card hide" data-name="1935">
-            <a href="feb1935.html"><img src="immagini/archivio/1935/Feb 1935/Copertina 02-1935 1.jpg" id="I935"><span>Febbraio<br/>1935</span></a>
+            <a href="feb1935.html"><img src="immagini/archivio/1935/Feb 1935/Copertina 02-1935 1.jpg" id="I935"><span>Gennaio<br/>1935</span></a>
         </div>
         <div class="card hide" data-name="1935">
             <a href="mar1935.html"><img src="immagini/archivio/1935/Mar 1935/Copertina 03-1935 1.jpg" id="I935"><span>Marzo<br/>1935</span></a>
@@ -290,27 +289,29 @@
             <a href="feb1939.html"><img src="immagini/archivio/1939/Feb 1939/Copertina 02-1939 1 - Copia.jpg" id="I939"><span>Febbraio<br/>1939</span></a>
         </div>
         <div class="card hide" data-name="1939">
-            <a href="mar1939.html"><img src="immagini/archivio/1939/Mar 1939/Copertina 03-1939 1.jpg" id="I939"><span>Marzo<br/>Aprile<br/>Maggio<br/>1938</span></a>
+            <a href="mar1939.html"><img src="immagini/archivio/1939/Mar 1939/Copertina 03-1939 1.jpg" id="I939"><span>Marzo<br/>Aprile<br/>Maggio<br/>1939</span></a>
         </div>
     </div>
    <script>
-    const filterbutton = document.querySelectorAll(".filter_button button");
-    const filterablecards = document.querySelectorAll(".filterable_cards .card");
+        document.addEventListener("DOMContentLoaded", function () {
+            const filterbutton = document.querySelectorAll(".filter_button button");
+            const filterablecards = document.querySelectorAll(".filterable_cards .card");
 
-    const filterCards = e => {
-        document.querySelector(".active").classList.remove("active");
-        e.target.classList.add("active");
+            const filterCards = e => {
+                document.querySelector(".active").classList.remove("active");
+                e.target.classList.add("active");
 
-        filterablecards.forEach(card =>{
-            card.classList.add("hide");
-            if(card.dataset.name === e.target.dataset.name || e.target.dataset.name === "anno1933"){
-                card.classList.remove("hide");
+                filterablecards.forEach(card => {
+                    card.classList.add("hide");
+                    if (card.dataset.name === e.target.dataset.name || e.target.dataset.name === "anno1933") {
+                        card.classList.remove("hide");
+                    }
+                })
             }
-        })
-    }
-    
-    filterbutton.forEach(button => button.addEventListener("click", filterCards));
-   </script>
+
+            filterbutton.forEach(button => button.addEventListener("click", filterCards));
+        });
+    </script>
    </main>
     <footer>
         <div class="box flex">
