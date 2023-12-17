@@ -514,17 +514,34 @@ footer div p{
 @media(max-width:1020px){
     .modale_grizzanti{
         height: 750px;
+        width: 400px;
+    }
+    .modale_chiabrando{
+        height: 750px;
+        width: 400px;
+    }
+    .modale_massimo{
+        height: 750px;
+        width: 400px;
     }
     .img{
         display: block;
     }
     .img img{
+        max-width: 75%;
         margin-left: 1.5rem;
+        margin-top: 0.25rem;
+    }
+    .specifiche{
+        margin-top: 1rem;
+    }
+    .specifiche .date{
+        margin-top: 1rem;
     }
     .testofond-ass{
-        margin: 1rem 1rem 0 0;
+        margin: 0 0.5rem 0 0;
         line-height: 1.5;
-        width: 300px;
+        width: 350px;
     }
 
 }
