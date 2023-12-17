@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color:white;
     font-family: Inter, Jost, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 header a {
     text-decoration: none;
@@ -180,8 +181,8 @@ div.item h4{
     justify-content: center;
 }
 div.owl-carousel.owl-theme{
-    margin-top: 2rem;
     height: 300px;
+    margin-bottom: 5rem;
 }
 div.contenitoremesi img{
     max-width: 100%;
@@ -224,6 +225,11 @@ div.contenitoremesi img{
 .contenitoremesi span{
     font-size: 20px;
 }
+@media (max-width:1000px) {
+    .contenitoremesi{
+        grid-template-columns: repeat(3, 3fr)
+    }
+}
 @media (max-width:600px) {
     .contenitoremesi{
         grid-template-columns: repeat(1, 1fr)
@@ -241,14 +247,23 @@ div.contenitoremesi img{
     .contenitoremesi a:hover::before{
         background: none;
     }
-    
+    div.descrizione p{
+        margin-top: -4rem;
+        margin-left: -4rem;
+    }
+    .info{
+        margin: auto;
+    }
+    .hero img{
+        padding-top: 1rem;
+    }
 }
 
 
 footer{
     background-color: rgb(240,240,240);
     max-width: 100%;
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 
 footer div p{

@@ -95,9 +95,11 @@ header {
 header img{
     height: 40px;
 }
-div.hero{
-    position: relative; 
+.hero{
     display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
 }
 div.hero img{
     width: 50%;
@@ -215,6 +217,10 @@ button.active {
     }
     .filterable_cards a:hover::before{
         background: none;
+    }
+    div.hero img{
+        width: auto;
+        height: auto;
     }
 }
 .card{
