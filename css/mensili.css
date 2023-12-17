@@ -193,7 +193,7 @@ div.contenitoremesi img{
     grid-template-columns: repeat(6, 1fr);
     margin-left: 9rem;
     margin-right: 9rem;
-    margin-top: 10rem;
+    margin-top: 17rem;
     justify-content: center;
     align-items: center;
 }
@@ -233,6 +233,9 @@ div.contenitoremesi img{
 @media (max-width:600px) {
     .contenitoremesi{
         grid-template-columns: repeat(1, 1fr)
+    }
+    .contenitoremesi{
+        margin-top: 35rem;
     }
     .contenitoremesi a {
         color: #000000;
