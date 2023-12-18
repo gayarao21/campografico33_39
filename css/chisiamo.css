@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color:white;
-    font-family: Inter, Jost, Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 header a {
@@ -119,14 +119,12 @@ header img{
 }
 
 .hero h1{
-    margin-top: 8rem;
+    margin-top: 7rem;
     margin-left: 7rem;
     color: rgb(185, 41, 23);
 }
 
 .hero img{
-
-    opacity: 80%;
     max-width: 100%;
 }
 
@@ -149,49 +147,46 @@ header img{
 }
 
 .monogrammi{
-    max-width: 700px;
-}
-
-.container1{
-    width: 200px;
-    height: 250px;
-    display: inline-block;
-    box-sizing: border-box;
-    margin-top: 5rem;
+    display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 700px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    gap: 3rem;
 }
 
-.container2{
+.card{
+    max-width: 250px;
+    justify-content: center;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 0;
+    margin: 2rem 2rem 0 2rem;
+    object-fit: cover;
     width: 200px;
-    height: 250px;
-    display: inline-block;
-    box-sizing: border-box;
-    margin: 5rem 2rem 0 2rem
-}
-.container3{
-    width: 200px;
-    height: 250px;
-    display: inline-block;
-    box-sizing: border-box;
-    margin-top: 5rem;
-}
-.card1 img{
-    max-width: 95%;
 }
 
-.card2 img{
-    max-width: 45%;
+.card2{
+    max-width: 250px;
+    justify-content: center;
+    text-align: center;
 }
 
-.card3 img{
-    max-width: 35%;
+.card2 img {
+    border-radius: 0;
+    margin: 2rem 2rem 0 2rem;
+    object-fit: cover;
+    height: 150px;
 }
-
 
 .chisiamo{
     margin-left: 3rem;
     margin-right: 3rem;
+    margin-top: 2rem;
 }
 
 .chisiamo p{
@@ -202,6 +197,16 @@ header img{
     display: flex;
 }
 
+.facebook a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.facebook a:hover{
+    text-decoration: none;
+    color: rgb(185, 41, 23);
+}
+
 .facebook img{
     max-width: 40px;
     max-height: 30px;
@@ -209,6 +214,16 @@ header img{
 
 .instagram{
     display: flex;
+}
+
+.instagram a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.instagram a:hover{
+    text-decoration: none;
+    color: rgb(185, 41, 23);
 }
 
 .instagram img{
@@ -253,9 +268,14 @@ footer div p{
     display: flex;
 }
 
-.abact p{
-    font-size: 8pt;
+.abact a{
+    font-size: 10pt;
     color: #000000;
+    text-decoration: none;
+}
+
+.abact a:hover{
+    color: rgb(185, 41, 23);
 }
 
 .abact img{
@@ -301,6 +321,26 @@ footer div p{
       position: relative;
       padding: 10px 0;
       margin: 0;
+    }
+}
+
+@media(max-width: 700px){
+    .monogrammi{
+        display: block;
+    }
+}
+
+@media(max-width:600px){
+    .chisiamo p{
+        margin-left: 2rem;
+    }
+}
+@media(max-width:530px){
+    .chisiamo p{
+        margin-left: 1rem;
+    }
+    .chisiamo p{
+        font-size: 11pt;
     }
 }
 

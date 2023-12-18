@@ -458,6 +458,16 @@ footer div p{
     display: flex;
 }
 
+.abact a{
+    font-size: 10pt;
+    color: #000000;
+    text-decoration: none;
+}
+
+.abact a:hover{
+    color: rgb(185, 41, 23);
+}
+
 .abact img{
     max-width: 30px;
     max-height: 30px;
@@ -505,6 +515,38 @@ footer div p{
       margin: 0;
     }
 }
+
+@media(max-width: 700px){
+    .info p{
+        font-size: 11pt;
+        max-width: 200px;
+    }
+}
+
+@media(max-width: 620px){
+    .info h1{
+        font-size: 20pt;
+    }
+    .info p{
+        font-size: 10pt;
+        max-width: 200px;
+    }
+}
+@media(max-width: 520px){
+    .hero{
+        margin-top: 4rem;
+    }
+    .info p{
+        font-size: 9pt;
+        max-width: 150px;
+    }
+}
+@media(max-width: 520px){
+    .info p{
+        font-size: 8pt;
+    }
+}
+
 
 @media(max-width: 770px){
     .fondatori-conteiner ul{

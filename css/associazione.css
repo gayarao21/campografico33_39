@@ -462,7 +462,15 @@ footer div p{
 .abact{
     display: flex;
 }
+.abact a{
+    font-size: 10pt;
+    color: #000000;
+    text-decoration: none;
+}
 
+.abact a:hover{
+    color: rgb(185, 41, 23);
+}
 .abact img{
     max-width: 30px;
     max-height: 30px;

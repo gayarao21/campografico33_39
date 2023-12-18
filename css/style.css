@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color:white;
-    font-family: Inter, Jost, Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 header a {
@@ -114,7 +114,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     cursor: pointer;
 }
 
-header img{
+.logo img{
     width: 25px;
 }
 
@@ -124,14 +124,8 @@ header img{
     height: auto;
 }
 
-div.heroimg{
-    position: relative; 
-    display: flex;
-}
-
 div.heroimg img.sfondo{
     max-width: 100%;
-    opacity: 40%;
 }
 
 .testata{
@@ -223,19 +217,20 @@ h2{
 .item{
     width: 100%;
     height: auto;
-    background-color: rgb(240,240,240);
     border-radius: 10px;
+    background-color: rgb(240,240,240);
     justify-content: center;
     align-items: center;
 }
 
 .item h4{
-    margin: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
 }
 
 .item img{
     border-radius: 10px;
+    margin-top: -0.5rem;
     max-width: 100%;
 }
 
@@ -271,6 +266,7 @@ h2{
     border-radius: 10px;
     border:0;
     cursor:pointer;
+    float: right;
 }
 
 .button:hover{
@@ -319,9 +315,14 @@ footer div p{
     margin-left: -0.5rem;
 }
 
-.abact p{
-    font-size: 8pt;
+.abact a{
+    font-size: 10pt;
     color: #000000;
+    text-decoration: none;
+}
+
+.abact a:hover{
+    color: rgb(185, 41, 23);
 }
 
 @media only screen and (max-width: 820px) {
@@ -424,6 +425,9 @@ footer div p{
     .campografico img{
         margin: 2rem 2rem 0 2rem;
     }
+    .testocg h3{
+        text-align: center;
+    }
     .testocg{
         margin-right: 2rem;
         margin-left: 2rem;
@@ -434,8 +438,7 @@ footer div p{
 }
 @media(max-width: 600px){
     .testata{
-        width: 100px;
-        z-index: 1;
+        width: 150px;
     }
     h1{
         font-size: 14pt;
