@@ -242,7 +242,7 @@ button.active {
         background: none;
     }
     div.hero img{
-      min-width: 400%;
+      min-width: 400px;
       margin-bottom: 1rem;
     }
     

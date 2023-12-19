@@ -169,4 +169,12 @@
 .owl-dot{
     margin-bottom: 5rem;
 }
-
+@media(max-width:700px){
+    .owl-theme .owl-dots .owl-dot {
+        opacity: 0;
+        max-width: 1px;
+        max-height: 1px;
+        margin: 0;
+        padding: 0;
+    }
+}
